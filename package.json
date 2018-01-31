@@ -1,6 +1,6 @@
 {
   "name": "fgm-microsite-theme",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
