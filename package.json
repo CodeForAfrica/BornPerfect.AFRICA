@@ -1,0 +1,19 @@
+{
+  "name": "fgm-microsite-theme",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {}
+}
