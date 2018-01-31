@@ -1,6 +1,5 @@
 
 'use strict';
-//Declare pluggins
 var autoprefixer = require('gulp-autoprefixer');
 var csso = require('gulp-csso');
 var del = require('del');
