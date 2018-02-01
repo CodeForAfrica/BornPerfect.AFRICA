@@ -13,7 +13,10 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-csso": "^3.0.1",
+    "gulp-minify": "^2.1.0",
     "gulp-uglify": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-minify-css": "^1.2.4"
+  }
 }
