@@ -1,13 +1,13 @@
 {
-  "name": "fgm-microsite-theme",
-  "version": "0.0.0",
-  "description": "",
+  "name": "bornperfect.africa",
+  "version": "0.1.0",
+  "description": "BornPerfect.AFRICA project. Stories on FGM from across the continent. Accessible at https://bornperfect.africa/.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Code for Africa",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "gulp-minify-css": "^1.2.4"
-  }
+  },
+  "repository": "https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git"
 }
