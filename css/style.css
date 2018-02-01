@@ -140,23 +140,23 @@ PAGE DIVIDER
 }
 
 .divider i {
-    color: #cccccc;
+    color: black;
 }
 
 .divider:before,
 .divider:after {
-    content: "______________________________________________________________";
+    content: "____________________________________________________";
     color: #e6e8ea;
     position: relative;
     bottom: 6px;
 }
 
 .divider:before {
-    right: 50px;
+    right: 2rem;
 }
 
 .divider:after {
-    left: 50px;
+    left: 2rem;
 }
 
 
@@ -244,9 +244,7 @@ NAVIGATION SECTION CSS
 }
 
 
-
-
-/*-----------------------
+/*------------------------
 
 
 FEATURED STORY SECTION CSS
@@ -307,10 +305,10 @@ header.featuredstory article {
     }
 }
 header.featuredstory a {
-    color:white
+    color: white
 }
 header.featuredstory a:hover {
-    color:#619183;
+    color: #619183;
 
 }
 
@@ -421,8 +419,6 @@ STORIES SECTION CSS
     padding-top: 3rem;
     padding-bottom: 1rem;
     font-size: 3rem;
-    "
-
 }
 
 .lead-story-paragraph {
@@ -468,19 +464,23 @@ STORIES SECTION CSS
 .fifth-story-article {
     padding-top: 2rem;
 }
-
+a {
+    color:black;
+}
 section.stories h3 a{
     color: white;
     text-decoration:none;
 }
 section.stories h4 a{
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
 section.stories a:hover{
-    color:#619183;
-    text-decoration:none;
+    color: #619183;
+    text-decoration: none;
 }
+
+
 
 /*----------------------
 
@@ -574,9 +574,14 @@ MAPPING SECTION CSS
     padding-right: 2rem;
     margin-right: 5rem;
 }
+.mapping-intro {
+    margin-left:3rem;
+}
 
 .explore-button {
     padding-left: 1rem;
+    height:4rem;
+    margin:1rem;
 }
 
 .logos-container {
@@ -586,6 +591,17 @@ MAPPING SECTION CSS
 .button-international {
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+section.mapping ul {
+    //margin: 0 0 0 0;
+    line-height: 1.5;
+    list-style-type: none;
+    padding-bottom: 3rem;
+    margin: 0;
+}
+section.mapping ul li{
+    padding-bottom: 0.5rem;
 }
 
 
@@ -697,9 +713,10 @@ PAGE DIVIDER CSS
     color: #cccccc;
 }
 
+
 .divider:before,
 .divider:after {
-    content: "______________________________________________________________";
+    content: "______________________________________________________________" ;
     color: #e6e8ea;
     position: relative;
     bottom: 6px;
@@ -713,27 +730,16 @@ PAGE DIVIDER CSS
     left: 50px;
 }
 
-
-
 /*----------------------
 
 FORM CSS
 
 ------------------------*/
 
-.form-group input[type="email"] {
-    border: none;
-    border-bottom: 2px solid #a6af13;
-    outline: none;
-    height: 40px;
-}
-
-
 
 /*-------------
 
 FOOTER SECTION CSS
-
 
  ------------------------*/
 
