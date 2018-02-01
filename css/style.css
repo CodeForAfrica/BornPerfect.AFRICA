@@ -4,6 +4,13 @@ Author:Code for Africa;
 
 ------------------------*/
 
+
+/*-----------------------
+
+BASE CSS
+
+------------------------*/
+
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Raleway');
 
 body {
@@ -17,67 +24,23 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway','Hammersmith One', sans-serif;
+    font-family: 'Raleway', 'Hammersmith One', sans-serif;
     font-weight: 700;
 }
 
-/*-------------
 
-Featured Story
+/*---------------------
 
-
- ------------------------*/
-
-header.featuredstory {
-    position: relative;
-    background-color: #343a40;
-    background: url("../img/Header-banner.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-}
-
-header.featuredstory .overlay {
-    position: absolute;
-    background-color: #212529;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-}
-
-header.featuredstory h1 {
-    font-size: 2rem;
-}
-
-@media (min-width: 768px) {
-    header.featuredstory {
-        padding-top: 10rem;
-        padding-bottom: 5rem;
-    }
-    header.featuredstory h1 {
-        font-size: 3rem;
-    }
-}
+SECTION CSS
 
 
-/*-------------
-
-Section css
-
-
- ------------------------*/
-
-
+------------------------*/
 
 section.about {
     min-height: 35rem;
     background-color: #2D2D2D;
 }
+
 .about .about-text {
     padding: 3rem;
 }
@@ -130,98 +93,79 @@ section.newsletter {
 }
 
 
-/*-------------
+/*------------------------
 
-Campaign css
-
-
- ------------------------*/
-
-.campaign-icons {
-    padding-top: 4rem;
-    padding-bottom: 7rem;
-}
-
-.campaign-icons .campaign-icons-item {
-    max-width: 20rem;
-}
-
-.campaign-icons .campaign-icons-item .campaign-icons-icon {
-    height: 3rem;
-}
-
-.campaign-icons .campaign-icons-item .campaign-icons-icon i {
-    font-size: 4.5rem;
-}
-
-.campaign-icons .campaign-icons-item:hover .campaign-icons-icon i {
-    font-size: 5rem;
-}
+BUTTON CSS
 
 
+-------------------------*/
 
-/*-------------
-Newsletter css
-
-
- ------------------------*/
-
-.newsletter {
+.btn-primary {
     color: #fff;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background: url("../img/Footer-Banner.jpg") no-repeat center center;
+    background-color: #262626!important;
+    border-color: #262626 !important;
 }
 
-.newsletter .newsletter-item {
-    max-width: 18rem;
+.btn-outlined {
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
-.newsletter .newsletter-item img {
-    max-width: 12rem;
-    box-shadow: 0px 5px 5px 0px #adb5bd;
+.btn-outlined.btn-secondary {
+    background-color: #DAD8D8;
+    border: 1px solid #DAD8D8;
+    color: black;
 }
 
-
-
-/*-------------
-
-Call to action css
-
-
- ------------------------*/
-
-.call-to-action {
-    position: relative;
+.btn-outlined.btn-success {
     background-color: #619183;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 2rem; //padding-bottom: 7rem;
-}
-
-.call-to-action .overlay {
-    position: absolute;
-    background-color: #212529;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
+    border: 1px solid #619183;
+    color: white;
 }
 
 
-/*-------------
 
-Navigation css
+/*-----------------------
+
+PAGE DIVIDER
+
+-------------------------*/
+
+.divider {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.divider i {
+    color: #cccccc;
+}
+
+.divider:before,
+.divider:after {
+    content: "______________________________________________________________";
+    color: #e6e8ea;
+    position: relative;
+    bottom: 6px;
+}
+
+.divider:before {
+    right: 50px;
+}
+
+.divider:after {
+    left: 50px;
+}
 
 
- ------------------------*/
+/*----------------------
+
+NAVIGATION SECTION CSS
+
+
+------------------------*/
 
 .bg-dark {
     background-color: #fff!important;
@@ -252,12 +196,8 @@ Navigation css
     color: #262626;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #18BC9C;
-}
-
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #18BC9C;
+    color: #619183;
 }
 
 #mainNav .navbar-toggler {
@@ -269,83 +209,490 @@ Navigation css
     margin-top: 0;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
-    color: #18BC9C;
-}
-
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #262626;
 }
 
-#mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-#mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
-}
 .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #18BC9C;
-    border: 2px solid #18BC9C;
+    background-color: #619183;
+    border: 2px solid #619183;
     border-radius: .25rem;
     color: black;
 }
+
 .navbar-dark .navbar-nav .nav-link.active {
     color: black;
 }
 
+.menupadding {
+    padding-right: 8rem;
+}
+
+.nav-item {
+    margin: 15px;
+    padding-top: 20px;
+}
+
 .social-menu {
+    display: flex;
+    padding-top: 0.4rem;
+}
+
+
+
+
+/*-----------------------
+
+
+FEATURED STORY SECTION CSS
+
+
+-------------------------*/
+
+header.featuredstory {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/Header-banner.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.featuredstory .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+header.featuredstory h1 {
+    font-size: 2rem;
+}
+
+.containerpadding {
+    padding-top: 3rem;
+}
+
+.label-featuredstory {
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+}
+
+header.featuredstory h1 {
+    text-decoration: underline;
+}
+
+header.featuredstory article {
+    padding-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    header.featuredstory {
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
+    header.featuredstory h1 {
+        font-size: 3rem;
+    }
+}
+header.featuredstory a {
+    color:white
+}
+header.featuredstory a:hover {
+    color:#619183;
+
+}
+
+
+/*-----------------------
+
+CALL TO ACTION SECTION CSS
+
+
+ ------------------------*/
+
+.call-to-action {
+    position: relative;
+    background-color: #619183;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 2rem; //padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+.rowpadding {
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+.columnpadding {
+    padding-bottom: 2rem
+}
+
+
+
+/*------------------------
+ 
+ ABOUT SECTION CSS
+
+ ------------------------*/
+
+.about-container {
+    padding-top: 4rem;
+}
+
+.about-row {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+.column-iframe {
+    padding-bottom: 2rem;
+}
+
+.about p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/*-----------------------
+
+STORIES SECTION CSS
+
+
+ ------------------------*/
+
+.parentcontainer {
+    padding-top: 5rem;
+}
+
+.stories-container {
+    padding-bottom: 5rem
+}
+
+.stories-rowpadding {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.content-section {
+    margin: 0.65rem;
+}
+
+.row-content-section {
     display: flex;
 }
 
+.lead {
+    margin-left: -1.9rem;
+}
 
-/*-------------
+.lead-author {
+    padding-left: 1rem;
+    margin-top: 0.4rem;
+}
 
-Button css
+.lead-story-title {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    "
 
+}
+
+.lead-story-paragraph {
+    padding-bottom: 1rem;
+    color: #E7E7E7;
+    font-size: 1.2rem;
+    "
+
+}
+
+.side-story-author {
+    padding-top: 2rem;
+}
+
+.side-story-article {
+    padding-top: 8rem;
+}
+
+.subtitle {
+    padding-top: 1rem
+}
+
+.side-story-paragraph {
+    padding-top: 2rem;
+}
+
+.side-story-row {
+    padding-top: 5rem;
+}
+
+.third-story-article {
+    padding-top: 4rem;
+}
+
+.third-story-paragraph {
+    padding-top: 1rem;
+}
+
+.fourth-story-article {
+    padding-top: 5rem;
+}
+
+.fifth-story-article {
+    padding-top: 2rem;
+}
+
+section.stories h3 a{
+    color: white;
+    text-decoration:none;
+}
+section.stories h4 a{
+    color: white;
+    text-decoration:none;
+}
+section.stories a:hover{
+    color:#619183;
+    text-decoration:none;
+}
+
+/*----------------------
+
+VIDEO SECTION CSS
+
+-------------------------*/
+
+.video-section-row {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+
+
+/*----------------------
+
+PHOTO & PODCAST CSS
+
+------------------------*/
+
+.photo-row-section {
+    padding-left: 0.9rem;
+    padding-bottom: 2rem;
+}
+
+.gallery {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.gallery {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.thumbnail {
+    background: #000;
+    width: 33.33%;
+    height: auto;
+    float: left;
+}
+
+.thumbnail {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    cursor: zoom-in;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:480px) {}
+
+.podcast-row-section {
+    padding-left: 0.9rem;
+    padding-bottom: 2rem;
+}
+
+.podcast-card {
+    height: 540px;
+}
+
+.podcast-height {
+    height: 540px;
+}
+
+
+
+/*-----------------------
+
+MAPPING SECTION CSS
 
  ------------------------*/
-.btn-primary {
-    color: #fff;
-    background-color: #262626!important;
-    border-color: #262626 !important;
+
+.mapping-parent-container {
+    padding: 8rem;
 }
-.btn-outlined {
-    border-radius: 0;
-    -webkit-transition: all 0.3s;
-       -moz-transition: all 0.3s;
-            transition: all 0.3s;
+
+.mapping-photo-row {
+    padding-top: 3rem padding-bottom:3rem;
 }
-.btn-outlined.btn-secondary {
-    background-color: #DAD8D8;
-    border: 1px solid #DAD8D8;
+
+.mapping-content {
+    padding-right: 2rem;
+    margin-right: 5rem;
+}
+
+.explore-button {
+    padding-left: 1rem;
+}
+
+.logos-container {
+    padding-top: 3rem;
+}
+
+.button-international {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/*----------------------
+
+CAMPAIGN SECTION CSS
+
+ ------------------------*/
+
+.campaign-icons {
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+    background-color: #fff!important;
     color: black;
 }
 
-.btn-outlined.btn-success {
-    background-color: #619183;
-    border: 1px solid #619183;
-    color: white;
+.title-container {
+    padding-top: 2rem;
 }
 
-/*-------------
+.born-free-container {
+    padding-top: 5rem;
+    padding-left: 1.8rem;
+}
 
-Page Divider
+.campaign-icons .campaign-icons-item {
+    max-width: 20rem;
+}
+
+.campaign-icons .campaign-icons-item .campaign-icons-icon {
+    height: 3rem;
+}
+
+.campaign-icons .campaign-icons-item .campaign-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.campaign-icons .campaign-icons-item:hover .campaign-icons-icon i {
+    font-size: 5rem;
+}
+
+.born-free-paragraph {
+    padding-left: 2rem;
+}
 
 
- ------------------------*/
+
+
+/*---------------------
+
+NEWSLETTER SECTION CSS
+
+
+-------------------------*/
+
+.newsletter {
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url("../img/Footer-Banner.jpg") no-repeat center center;
+}
+
+.newsletter .newsletter-item {
+    max-width: 18rem;
+}
+
+.newsletter .newsletter-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.newsletter-row {
+    padding-top: 3rem padding-bottom:3rem;
+}
+
+.newsletter-column {
+    padding-bottom: 3rem
+}
+
+.newsletter-subscribe-row {}
+
+.newsletter h4 {
+    padding-bottom: 1rem
+}
+
+.newsletter p {
+    padding-top: 1rem;
+    color: #E7E7E7;
+}
+
+
+/*----------------------
+
+PAGE DIVIDER CSS
+
+------------------------*/
 
 .divider {
     margin-top: 30px;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 .divider i {
     color: #cccccc;
 }
@@ -367,68 +714,29 @@ Page Divider
 }
 
 
-/*-------------
 
-Photo gallery
+/*----------------------
 
+FORM CSS
 
- ------------------------*/
-.gallery {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-.gallery {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+------------------------*/
+
+.form-group input[type="email"] {
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 40px;
 }
 
-.thumbnail {
-    background: #000;
-    width: 33.33%;
-    height: auto;
-    float: left;
-}
-.thumbnail {
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-    cursor: zoom-in;
-}
-
-.thumbnail img {
-    max-width: 100%;
-    height:auto;
-}
-@media screen and (max-width:480px) {
-    font-size: 12px;
-}
-
-/*-------------
-
-Form css
-
-
- ------------------------*/
-.form-group input[type="email"]
-{
-  border: none;
-  border-bottom: 2px solid #a6af13;
-  outline: none;
-  height: 40px;
-
-}
 
 
 /*-------------
 
-Footer css
+FOOTER SECTION CSS
 
 
  ------------------------*/
+
 footer.footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -438,16 +746,30 @@ footer ul {
     display: flex;
 }
 
+footer.para-1 {
+    color: #E7E7E7;
+}
+
+footer.para-2 {
+    color: #B6B6B6;
+}
+
 ul.social-network {
     list-style: none;
     display: inline;
     margin-left: 0 !important;
     padding: 0;
 }
+
 ul.social-network li {
     display: inline;
     margin: 0 5px;
 }
+
+.footnote {
+    padding-top: 2rem;
+}
+
 .social-circle li a {
     display: inline-block;
     position: relative;
@@ -459,14 +781,16 @@ ul.social-network li {
     width: 50px;
     height: 50px;
     font-size: 20px;
-    color:black;
+    color: black;
 }
+
 .social-circle li i {
-    color:black;
+    color: black;
     margin: 0;
     line-height: 50px;
     text-align: center;
 }
+
 .social-circle i {
     color: #C4C3C3;
     -webkit-transition: all 0.8s;
@@ -476,18 +800,23 @@ ul.social-network li {
     transition: all 0.8s;
 }
 
-.social-circle  a {
-    background-color: #C4C3C3;;
+.social-circle a {
+    background-color: #C4C3C3;
+    ;
 }
+
 .fa-facebook {
     color: black;
 }
+
 .fa-twitter {
     color: black;
 }
+
 .fa-instagram {
     color: black;
 }
+
 .fa-envelope-o {
     color: black;
 }
