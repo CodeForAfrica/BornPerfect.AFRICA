@@ -1,7 +1,8 @@
 ---
 ---
 
-/*-------------
+/*--------------------
+
 Author: Code for Africa;
 
 ------------------------*/
@@ -35,7 +36,7 @@ SECTION CSS
 
 section.about {
   min-height: 35rem;
-  background-color: ##221F1F;
+  background-color:#221F1F!important;
 
   .about-text {
     padding: 3rem;
@@ -102,11 +103,7 @@ BUTTON CSS
   color: #fff;
   background-color: #3a3a3a!important;
   border-color: #3a3a3a !important;
-}
-.btn a :active {
-  outline: none;
-  box-shadow: none;
-  -webkit-box-shadow: none!important;
+  outline: #3a3a3a!important;
 }
 
 .btn-outlined {
@@ -114,6 +111,7 @@ BUTTON CSS
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+  outline: none!important;
 }
 
 .btn-outlined.btn-secondary {
@@ -126,6 +124,14 @@ BUTTON CSS
   background-color: #619183;
   border: 0px solid #619183;
   color: white;
+  font-size: larger;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    color: #fff;
+    background-color: #619183!important;
 }
 
 h6 {
@@ -179,7 +185,18 @@ NAVIGATION SECTION CSS
     -moz-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
 }
+
+//.scrollnav {
+  //background-color:black;
+//}
 
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -321,7 +338,7 @@ CALL TO ACTION SECTION CSS
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 2rem; //padding-bottom: 7rem;
+  //padding-top: 2rem; //padding-bottom: 7rem;
 }
 
 .call-to-action .overlay {
@@ -506,6 +523,11 @@ VIDEO SECTION CSS
   padding-left: 1rem;
 }
 
+section.videos a:hover{
+  color: #619183;
+  text-decoration: none;
+}
+
 
 
 /*----------------------
@@ -567,6 +589,11 @@ PHOTO & PODCAST CSS
   height: 540px;
 }
 
+section.photo-podcast a:hover{
+  color: #619183;
+  text-decoration: none;
+}
+
 section.photo-podcast h6 {
     overflow: hidden;
     text-align: center;
@@ -594,7 +621,7 @@ section.photo-podcast h6:after {
 
 MAPPING SECTION CSS
 
- ------------------------*/
+-------------------------*/
 
 .mapping-parent-container {
   padding: 8rem;
@@ -731,8 +758,10 @@ NEWSLETTER SECTION CSS
   padding-top: 1rem;
   color: #E7E7E7;
 }
-
-
+.form-control{
+  border-radius:0rem;
+}
+ 
 /*-------------
 
 FOOTER SECTION CSS
