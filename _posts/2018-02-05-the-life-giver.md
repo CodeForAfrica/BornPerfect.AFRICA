@@ -1,11 +1,11 @@
 ---
-layout: post
-title:  The Life Giver: TBAs
-date:   2018-12-01 16:16:01 -0600
-categories: fgm-stories
-permalinks: the-life-giver-tbas
-author: Fardosa Mahamad
+layout: "post"
+title: "the-life-giver"
+categories: fgmstories
+permalink: the-life-giver
 ---
+
+
 The Life Giver: TBAs
 
 By Fardosa Mahamad 
@@ -33,5 +33,3 @@ Sumeya and the pregnant woman exchange numbers. The woman says she has been look
 Mama Khadija said she had never lost a client. “I thank Allah because not even one of my clients has died while giving birth. Some suffer complications and I immediately advise that they be taken to the nearby hospitals. But even with modern hospitals, women still pay me a visit because they want to be re stitched after giving birth”, says Khadija. 
 It is for this service which Mama Khadija is known for but she is not overly concerned. She knows the risk she takes every time she re-stitches a woman since this is against the law. 
 She and Sumeya are however in agreement as to why women will continue to demand their services.  “A big part of the problem is that our women don’t have the liberty to decide what to do with their bodies because of the demands their partners or husbands make. That is why we live with the consequences of FGM forever,” Mama Khadija says.
-
-

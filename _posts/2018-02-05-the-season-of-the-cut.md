@@ -1,12 +1,9 @@
 ---
-layout: post
-title:  The season of the Cut
-date:   2018-12-01 16:16:01 -0600
-categories: fgm-stories
-permalinks: the-season-of-the-cut
-author: Fardosa Mahamad
+layout: "post"
+title: "the season of the cut"
+categories: fgmstories
+permalink: the-season-of-the-cut
 ---
-
 
 The season of the cut
 By Fardosa Mahamad
@@ -29,4 +26,3 @@ Some examples of psychological effects of FGM among girls include; the feeling o
 Sexual problems as a result of FGM can affect both partners in marriage, from fear of the first sexual intercourse onwards, and create great anxiety. Excised women may suffer painful sexual intercourse because of narrow vaginal opening and complications such as infection. Inhibition of coitus because of fear of pain may damage the marital relationship and even lead to divorce.
 FGM is seen internationally as a violation of many women’s and children’s rights, such as health, to be free from gender discrimination, to life, and to freedom from torture including the inherent dignity of the person, the right to liberty and security of the person, and the right to privacy. Only by acknowledging that the subjection of girls and women to FGM is an act of control and gender discrimination that compromises the enjoyment of their fundamental rights and freedoms can communities begin to recognize and deal with FGM as a serious violation of human rights that requires redress.  
 According to a report by FRONTIER, there is a wide feeling expressed that the movement to encourage the abandonment of FGM is driven by western interests, with the aim of forcing the Somalis to forsake their traditional culture and become absorbed into a westernized culture. Consequently, future interventions to encourage FGM abandonment in the Somali community will need to ensure the explicit support of political, religious and cultural leaders to counter these perceptions.
-

@@ -1,11 +1,11 @@
 ---
-layout: post
-title:  Kenyan man who dares to challenge female circumcision
-date:   2018-12-01 16:16:01 -0600
-categories: fgm-stories
-permalinks: stories/kenyan-man-who-dares-to-challenge-female-circumcision
-author: Lilian Kaivilu
+layout: "post"
+title: "Kenyan man who dares challenge female circumcision"
+categories: fgmstories
+permalink: kenyan-man-who-dares
 ---
+
+
 Kenyan man who dares to challenge female circumcision
 
 By Lilian Kaivilu
@@ -67,5 +67,3 @@ Chacha strategically plans his training sessions from July ahead of the annual D
 He has been sitting with a group of three to eight cultural elders every day since 2016, discussing on ways to end FGM.
 
 “Mine is usually to convince them on the dangers of FGM. I am optimistic that this is going to bear fruit,” he said.
-
-

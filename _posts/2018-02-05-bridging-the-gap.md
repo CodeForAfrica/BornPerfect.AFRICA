@@ -1,12 +1,10 @@
 ---
-layout: post
-title:  Bridging the Gap
-date:   2018-12-01 16:16:01 -0600
-categories: fgm-stories
-permalinks: stories/bridging-the-gap
-author: Fardosa Mahamad
----
+layout: "post"
+title: "Bridging the gap"
+categories: fgmstories
+permalink: bridging-the-gap
 
+---
 
 Bridging the Gap   
 By Fardosa Mahamad
@@ -46,6 +44,3 @@ Elderly men among the Borana community are considered the decision makers and Br
 The journey has not been easy, but with hope, Abdulkadir sees a near future where religious leaders (both imams and pastors) will also take up the campaign to break the silence on FGM. 
 
 “ We are doing this to slowly. Changing the attitudes of the people cannot be done through force. We cannot force them to stop the cut all at once,” he said. 
-
-
-

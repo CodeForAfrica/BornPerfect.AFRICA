@@ -1,10 +1,8 @@
 ---
-layout: post
-title:  The Cutter
-date:   2018-12-05 16:16:01 -0600
-categories: fgm-stories
-permalinks: the-cutter
-author: Fardosa Mahamad
+ayout: "post"
+title: "The Cutter"
+categories: fgmstories
+permalink: the-cutter
 ---
 
 THE CUTTER
@@ -25,4 +23,3 @@ But the operation she conducted on the two girls was far different. She  perform
 After an hour at the home, Sumeya bids the family goodbye and leaves to go to the Parklands suburbs where two other families are waiting for her to cut their daughters.
 “Nothing changes about this job, I charge them fairly and offer them my services”, Sumeya says.  
 Her charges range from Sh3,000 for every client upwards to Sh5,000 for those who are well off. The cut takes less than half an hour.
-

@@ -1,15 +1,13 @@
 ---
-layout: post
-title:  BREAKING THE CURSE
-date:   2018-12-01 16:16:01 -0600
-categories: fgm-stories
-permalinks: stories/breaking-the-curse/
-author: Diana Kendi
+layout: "post"
+title: "Breaking the post"
+categories: fgmstories
+permalink: breaking-the-curse
+
 ---
 
-
-BREAKING THE CURSE
-By Diana Kendi 
+###BREAKING THE CURSE
+####By Diana Kendi 
 
 Sixty year old Longoima Lesiale has three wives and 21 children. Five out of his seven daughters have undergone the cut. 
 The remaining daughters have not been cut. This is mainly due to pressure from his youngest wife who finally succeeded in convincing him that the cut is retrogressive and causes harm to the girl.
@@ -53,7 +51,6 @@ Only 17.9 per cent of women aged between 15-49 years in Kajiado County completed
 In Narok County, the percentage rate went lower by more than half with only 7.3 per cent of women between 15-49 years completing primary school while 10.4 per cent completing secondary.
 
 In Samburu County a similar percentage of 7.3 per cent of women as those in Narok completed primary school whereas only 5.4 per cent of them completed secondary school in the same period.
-
 
 
 Condemning the Curse

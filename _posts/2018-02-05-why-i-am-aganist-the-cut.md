@@ -1,11 +1,10 @@
 ---
-layout: post
-title:  Why I am aganist the cut
-date:   2018-12-01 16:16:01 -0600
-categories: fgm-stories
-permalinks: why-i-am-aganist-the-cut
-author: Kauthar Mahamed
+layout: "post"
+title: "why i am aganist the cut"
+categories: fgmstories
+permalink: why-i-am-aganist-the cut
 ---
+
 
 WHY I AM AGANIST THE CUT
 By Kauthar Mahamed
@@ -36,6 +35,3 @@ Aisha says the medical complications of FGM are sometimes so severe that even th
  
 AN FGM SURVIVOR
 Habiba Hussein aged 25  a mother of one son says that she is even scared to ever give birth again because of the pain she underwent during her delivery of her first born son. “I was sewed, and even right now feeling uncomfortable about it. I had difficulties because it was a long and difficult labour because of the cut. I wish l knew,” she says adding “I will not let this happen to my daughter.”
- 
-
-

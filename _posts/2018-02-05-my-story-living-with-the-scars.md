@@ -1,10 +1,8 @@
 ---
-layout: post
-title:  My story; Living with the scars
-date:   2018-12-01 16:16:01 -0600
-categories: fgm-stories
-permalinks: stories/my-story-living-with-scars
-author: Fardosa Mahamad
+layout: "post"
+title: "My story living with the scars"
+categories: fgmstories
+permalink: my-story-living-with-the-scars
 ---
 
 My story; Living with the scars
@@ -93,11 +91,3 @@ My grandmother made it clear that we were not supposed to talk about what had ha
 We flew back to Nairobi safely and continued with our lives like nothing happened. 
 
 I wonder who talks about their cut experience. I used to feel embarrassed in campus when my fellow classmates joked about girls who are circumcised. Not only did I suffer physically but I am also forced to live with the emotional scars from that horrid experience. It was not my wish to go through the cut and for that my future daughter will be lucky because I will not let societal pressure make her go through what I was forced to.
-
-
-
-
-
-
-
-
