@@ -1,10 +1,11 @@
---------------
+---
 layout: post
 title:  The Life Giver: TBAs
-date:   2015-11-17 16:16:01 -0600
+date:   2018-12-01 16:16:01 -0600
 categories: fgm-stories
 permalinks: the-life-giver-tbas
-----------------
+author: Fardosa Mahamad
+---
 The Life Giver: TBAs
 
 By Fardosa Mahamad 

@@ -1,11 +1,11 @@
----------------
+---
 layout: post
 title:  Kenyan man who dares to challenge female circumcision
-date:   2015-11-17 16:16:01 -0600
+date:   2018-12-01 16:16:01 -0600
 categories: fgm-stories
-permalinks: kenyan-man-who-dares
-
-------------------
+permalinks: stories/kenyan-man-who-dares-to-challenge-female-circumcision
+author: Lilian Kaivilu
+---
 Kenyan man who dares to challenge female circumcision
 
 By Lilian Kaivilu

@@ -1,17 +1,17 @@
----------
+---
 layout: post
 title:  Bridging the Gap
-date:   2015-11-17 16:16:01 -0600
+date:   2018-12-01 16:16:01 -0600
 categories: fgm-stories
-permalinks: bridging-the-gap
-
-
-----------
+permalinks: stories/bridging-the-gap
+author: Fardosa Mahamad
+---
 
 
 Bridging the Gap   
 By Fardosa Mahamad
-fardee86@gmail.com 
+
+
 Noor Abdulkadir was only 10 years old when his seven-year-old sister was circumcised. 
 
 Twenty one years later he is still filled with guilt for not having done something to protect her from the cut. 

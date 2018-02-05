@@ -1,10 +1,11 @@
-----------------
+---
 layout: post
 title:  Why I am aganist the cut
-date:   2015-11-17 16:16:01 -0600
+date:   2018-12-01 16:16:01 -0600
 categories: fgm-stories
 permalinks: why-i-am-aganist-the-cut
------------------
+author: Kauthar Mahamed
+---
 
 WHY I AM AGANIST THE CUT
 By Kauthar Mahamed

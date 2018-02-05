@@ -1,10 +1,11 @@
--------------
+---
 layout: post
 title:  The season of the Cut
-date:   2015-11-17 16:16:01 -0600
+date:   2018-12-01 16:16:01 -0600
 categories: fgm-stories
 permalinks: the-season-of-the-cut
-----------------
+author: Fardosa Mahamad
+---
 
 
 The season of the cut

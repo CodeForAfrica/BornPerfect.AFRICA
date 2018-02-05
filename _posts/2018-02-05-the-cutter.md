@@ -1,10 +1,11 @@
-------------------
+---
 layout: post
 title:  The Cutter
-date:   2015-11-17 16:16:01 -0600
+date:   2018-12-05 16:16:01 -0600
 categories: fgm-stories
 permalinks: the-cutter
---------------------
+author: Fardosa Mahamad
+---
 
 THE CUTTER
 
