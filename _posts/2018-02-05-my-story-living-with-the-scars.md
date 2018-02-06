@@ -3,11 +3,9 @@ layout: "post"
 title: "My story living with the scars"
 categories: fgmstories
 permalink: my-story-living-with-the-scars
+author: Fardosa Hussein
 ---
 
-My story; Living with the scars
-As narrated to Fardosa Hussein 
-fardee86@gmail.com 
 
 Twelve years letter I am still learning how to live with the scars of the cut.
 
