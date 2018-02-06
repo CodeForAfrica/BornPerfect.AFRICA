@@ -1,14 +1,12 @@
 ---
 layout: "post"
-title: "why i am aganist the cut"
+title: "WHY I AM AGANIST THE CUT."
 categories: fgmstories
 permalink: why-i-am-aganist-the cut
+author: Kauthar Mahamed
 ---
 
 
-WHY I AM AGANIST THE CUT
-By Kauthar Mahamed
- 
 Hawa Ali was only five when she and three other girls were circumcised.  “We were woken up very early by a group of women. My mother was there too. They were very rough with us. One of the women performed firauni,” the 45-year old mother of five says recalling the day she was circumcised. Unlike in other communities where the cut is considered a rite of passage from girlhood to womanhood and therefore a cause for celebration, Hawa’s cutting went unnoticed by all except for the women in the household and the neighbourhood. 
 The Somali practise different types of Firauni infibulation. According to Somali oral history, this type of cutting originated from Egypt and spread into Somalia, Sudan, Eritrea, Ethiopia and other countries where this type of cutting is common. 
 These are Faadumo — the partial or total removal of the clitoris and the labia minora, sometimes done with or without the excision of the labia majora. (The labia are the lips that surround the vagina). 

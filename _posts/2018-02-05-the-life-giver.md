@@ -1,14 +1,11 @@
 ---
 layout: "post"
-title: "the-life-giver"
+title: "THE LIFE GIVER."
 categories: fgmstories
 permalink: the-life-giver
+author: Fardosa Mahamad
 ---
 
-
-The Life Giver: TBAs
-
-By Fardosa Mahamad 
 
 Traditional birth attendants (TBA) in the Somali community play a major role in perpetuating the cut. Despite the introduction of free maternity in 2013, many Somali women still seek out the services of traditional birth attendants. 
 Sumeya* is a well known health professional who moonlights as a cutter. She offered to take me to Mama Khadija* a traditional birth attendant who works from her home in Eastleigh, Section 3 and is also known for her skills in re-infibulating— re-stitching women who have undergone FGM.

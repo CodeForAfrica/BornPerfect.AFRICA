@@ -1,13 +1,11 @@
 ---
-ayout: "post"
-title: "The Cutter"
+layout: "post"
+title: "THE CUTTER."
 categories: fgmstories
 permalink: the-cutter
+author: Fardosa Mahamad
 ---
 
-THE CUTTER
-
-By Fardosa Mahamad
 
 Her phone kept ringing the whole time... “Are you sure you don’t want to pick those calls,” I asked. 
 
