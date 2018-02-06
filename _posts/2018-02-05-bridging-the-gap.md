@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Bridging the gap"
+title: "BRIDGING THE GAP."
 categories: fgmstories
 permalink: bridging-the-gap
 author: Fardosa Mahamad

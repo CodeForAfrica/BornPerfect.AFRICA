@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "the season of the cut"
+title: "THE SEASON OF THE CUT."
 categories: fgmstories
 permalink: the-season-of-the-cut
 author: Fardosa Mahamad

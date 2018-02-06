@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "My story living with the scars"
+title: "MY STORY LIVING WITH THE SCARS"
 categories: fgmstories
 permalink: my-story-living-with-the-scars
 author: Fardosa Hussein

@@ -1,6 +1,6 @@
 ---
-ayout: "post"
-title: "The Cutter"
+layout: "post"
+title: "THE CUTTER."
 categories: fgmstories
 permalink: the-cutter
 author: Fardosa Mahamad
