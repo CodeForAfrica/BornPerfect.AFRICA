@@ -540,7 +540,7 @@ PHOTO & PODCAST CSS
   width: 33.33%;
   height: auto;
   float: left;
-  cursor: zoom-in;
+  cursor: pointer;
   overflow: hidden;
   position: relative;
   padding: 0;
@@ -840,4 +840,7 @@ ul.social-network li {
 
 .fa-envelope-o {
   color: black;
+}
+.footer a{
+  color:#619183;
 }

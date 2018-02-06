@@ -39,21 +39,6 @@
     offset: 54
   });
 
-  //Added zoom effect on photo gallery
-  $(document).ready(function(){
-  $("thumbnail").click(function(){
-    $("thumbnail").slideToggle("fast");
-    $(this).next("large").slideToggle();
-  });
-  
-  $(".close").click(function(){
-    $("large:visible").toggle();
-    $("thumbnail").fadeToggle("fast");; 
-  }); 
-  
-  });
-
-  new WOW().init();
 
 //change color on scroll
 //$(window).on('scroll', function(){
