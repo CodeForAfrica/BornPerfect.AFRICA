@@ -1,8 +1,8 @@
 ---
 ---
 
-/*-------------
-Theme:  Startboostrap landing page;
+/*--------------------
+
 Author: Code for Africa;
 
 ------------------------*/
@@ -36,7 +36,7 @@ SECTION CSS
 
 section.about {
   min-height: 35rem;
-  background-color: #2D2D2D;
+  background-color:#221F1F!important;
 
   .about-text {
     padding: 3rem;
@@ -59,6 +59,7 @@ section.mapping {
   width: 100%;
   height: 100vh;
   color: white!important;
+  backgroun-color:#221F1F;
 }
 
 section.videos {
@@ -100,8 +101,9 @@ BUTTON CSS
 
 .btn-primary {
   color: #fff;
-  background-color: #262626!important;
-  border-color: #262626 !important;
+  background-color: #3a3a3a!important;
+  border-color: #3a3a3a !important;
+  outline: #3a3a3a!important;
 }
 
 .btn-outlined {
@@ -109,6 +111,7 @@ BUTTON CSS
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+  outline: none!important;
 }
 
 .btn-outlined.btn-secondary {
@@ -119,11 +122,43 @@ BUTTON CSS
 
 .btn-outlined.btn-success {
   background-color: #619183;
-  border: 1px solid #619183;
+  border: 0px solid #619183;
   color: white;
+  font-size: larger;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    color: #fff;
+    background-color: #619183!important;
 }
 
-
+h6 {
+    overflow: hidden;
+    text-align: center;
+}
+h6:before,
+h6:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 33%;
+}
+h6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h6:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+h6{
+  cursor:pointer
+}
 
 /*----------------------
 
@@ -150,7 +185,18 @@ NAVIGATION SECTION CSS
     -moz-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
 }
+
+//.scrollnav {
+  //background-color:black;
+//}
 
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -277,7 +323,6 @@ header.featuredstory a:hover {
 
 }
 
-
 /*-----------------------
 
 CALL TO ACTION SECTION CSS
@@ -287,12 +332,13 @@ CALL TO ACTION SECTION CSS
 
 .call-to-action {
   position: relative;
-  background-color: #619183;
+  background: url('../img/Button-BG.jpg') no-repeat center center;
+  //background-color: #619183;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 2rem; //padding-bottom: 7rem;
+  //padding-top: 2rem; //padding-bottom: 7rem;
 }
 
 .call-to-action .overlay {
@@ -443,7 +489,28 @@ section.stories a:hover{
   text-decoration: none;
 }
 
-
+section.stories h6 {
+    overflow: hidden;
+    text-align: center;
+}
+section.stories h6:before,
+section.stories h6:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 45%;
+}
+section.stories h6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+section.stories h6:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
 
 /*----------------------
 
@@ -454,6 +521,11 @@ VIDEO SECTION CSS
 .video-section-row {
   padding-bottom: 2rem;
   padding-left: 1rem;
+}
+
+section.videos a:hover{
+  color: #619183;
+  text-decoration: none;
 }
 
 
@@ -517,13 +589,39 @@ PHOTO & PODCAST CSS
   height: 540px;
 }
 
+section.photo-podcast a:hover{
+  color: #619183;
+  text-decoration: none;
+}
 
+section.photo-podcast h6 {
+    overflow: hidden;
+    text-align: center;
+}
+section.photo-podcast h6:before,
+section.photo-podcast h6:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 45%;
+}
+section.photo-podcast h6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+section.photo-podcast h6:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
 
 /*-----------------------
 
 MAPPING SECTION CSS
 
- ------------------------*/
+-------------------------*/
 
 .mapping-parent-container {
   padding: 8rem;
@@ -660,16 +758,10 @@ NEWSLETTER SECTION CSS
   padding-top: 1rem;
   color: #E7E7E7;
 }
-
-
-
-/*----------------------
-
-FORM CSS
-
-------------------------*/
-
-
+.form-control{
+  border-radius:0rem;
+}
+ 
 /*-------------
 
 FOOTER SECTION CSS
@@ -679,6 +771,7 @@ FOOTER SECTION CSS
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-color:#303030!important;
 }
 
 footer ul {
