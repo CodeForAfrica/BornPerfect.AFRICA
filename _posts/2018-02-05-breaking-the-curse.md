@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "BREAKING THE CURSE."
 categories: fgmstories
 permalink: breaking-the-curse
