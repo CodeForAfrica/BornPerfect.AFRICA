@@ -3,15 +3,13 @@
 
 /*--------------------
 
-Author: Code for Africa;
+Author: Code for Africa
 
 ------------------------*/
-
 
 /*-----------------------
 
 BASE CSS
-
 ------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Raleway');
@@ -30,8 +28,6 @@ h1,h2,h3,h4,h5,h6 {
 /*---------------------
 
 SECTION CSS
-
-
 ------------------------*/
 
 section.about {
@@ -95,14 +91,13 @@ section.newsletter {
 /*------------------------
 
 BUTTON CSS
-
 -------------------------*/
 
 .btn-primary {
   color: #fff;
   background-color: #3a3a3a!important;
   border-color: #3a3a3a !important;
-  outline: #3a3a3a!important;
+  outline: none!important;
 }
 
 .btn-outlined {
@@ -129,6 +124,15 @@ BUTTON CSS
 .btn:focus {
   outline: 0 !important;
 }
+.button-label {
+  border-style: solid;
+}
+
+//.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    //color: #fff;
+    //background-color: #619183;
+    //border-color: #619183;
+//}
 
 h6 {
     overflow: hidden;
@@ -159,8 +163,6 @@ h6{
 /*----------------------
 
 NAVIGATION SECTION CSS
-
-
 ------------------------*/
 
 .bg-dark {
@@ -190,9 +192,6 @@ NAVIGATION SECTION CSS
   }
 }
 
-//.scrollnav {
-  //background-color:black;
-//}
 
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -253,10 +252,7 @@ NAVIGATION SECTION CSS
 
 /*------------------------
 
-
 FEATURED STORY SECTION CSS
-
-
 -------------------------*/
 
 header.featuredstory {
@@ -322,9 +318,7 @@ header.featuredstory a:hover {
 /*-----------------------
 
 CALL TO ACTION SECTION CSS
-
-
- ------------------------*/
+-------------------------*/
 
 .call-to-action {
   position: relative;
@@ -356,22 +350,10 @@ CALL TO ACTION SECTION CSS
   padding-bottom: 2rem
 }
 
-/*-------------------
-Images rollover states
-
-
----------------------*/
-
-.rollover{
-  
-}
-
-
 /*------------------------
  
  ABOUT SECTION CSS
-
- ------------------------*/
+------------------------*/
 
 .about-container {
   padding-top: 4rem;
@@ -397,9 +379,7 @@ Images rollover states
 /*-----------------------
 
 STORIES SECTION CSS
-
-
- ------------------------*/
+-------------------------*/
 
 .parentcontainer {
   padding-top: 5rem;
@@ -520,7 +500,6 @@ section.stories h6:after {
 /*----------------------
 
 VIDEO SECTION CSS
-
 -------------------------*/
 
 .video-section-row {
@@ -538,7 +517,6 @@ section.videos a:hover{
 /*----------------------
 
 PHOTO & PODCAST CSS
-
 ------------------------*/
 
 .photo-row-section {
@@ -565,18 +543,32 @@ PHOTO & PODCAST CSS
   width: 33.33%;
   height: auto;
   float: left;
-}
-
-.thumbnail {
-  overflow: hidden;
-  padding: 0;
-  position: relative;
   cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
 }
 
 .thumbnail img {
   max-width: 100%;
   height: auto;
+}
+.thumbnail:hover img{
+  transition: .3s linear;
+  transition-delay: 300ms;
+  transform: /* rotate(5deg) */ scale(1.4);
+}
+.large{
+  background: #000;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  display: none
+}
+.large img{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width:480px) {}
@@ -625,7 +617,6 @@ section.photo-podcast h6:after {
 /*-----------------------
 
 MAPPING SECTION CSS
-
 -------------------------*/
 
 .mapping-parent-container {
@@ -675,8 +666,7 @@ section.mapping ul li{
 /*----------------------
 
 CAMPAIGN SECTION CSS
-
- ------------------------*/
+-------------------------*/
 
 .campaign-icons {
   padding-top: 4rem;
@@ -720,8 +710,6 @@ CAMPAIGN SECTION CSS
 /*---------------------
 
 NEWSLETTER SECTION CSS
-
-
 -------------------------*/
 
 .newsletter {
@@ -770,8 +758,7 @@ NEWSLETTER SECTION CSS
 /*-------------
 
 FOOTER SECTION CSS
-
- ------------------------*/
+-------------------------*/
 
 footer.footer {
   padding-top: 4rem;
@@ -841,7 +828,10 @@ ul.social-network li {
   background-color: #C4C3C3;
   ;
 }
-
+.social-circle a:hover{
+  background-color: #fff;
+  ;
+}
 .fa-facebook {
   color: black;
 }
@@ -856,4 +846,7 @@ ul.social-network li {
 
 .fa-envelope-o {
   color: black;
+}
+.footer a{
+  color:#619183;
 }
