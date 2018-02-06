@@ -4,11 +4,11 @@
     <div class="row row grid-divider ">
       <div class="col-md-6 col-lg-6 ">
         <div class="col-padding ">
-          <h4><b>About Born Perfect</b> us</h4>
-          <p class="para-1 ">FGM is a violation of the human rights of girls and women, and yet more than 200 million alive today have been cut in 30 countries across Africa, the Middle East and Asia. The ‘Born Perfect’ project documents FGM in Africa to spread awareness so that the number is reduced to zero</p>
+          <h4>About Born Perfect</h4>
+          <p class="para-1 ">Female Genital Mutilation (FGM) is a violation of the human rights of girls and women, and yet more than 200 million alive today have been cut in 30 countries across Africa, the Middle East and Asia. The ‘Born Perfect’ project documents FGM in Africa to spread awareness so that the number is reduced to zero.</p>
           <div class="d-flex flex-row ">
-            <div class="p-2 "><img src="img/logos/CodeforAfricaLogo.jpg " class="img-fluid " alt="Code for africa logo " width="100px " height="80px "></div>
-            <div class="p-2 "><img src="img/logos/logo1.png " alt="ICFJ logo " class="img-fluid " width="100px " height="80px "></div>
+            <div class="p-2 "><a href="https://codeforafrica.org/" target="_blank" rel="noopener"><img src="img/logos/CodeforAfricaLogo.jpg " class="img-fluid " alt="Code for africa logo " width="100px " height="80px "/></a></div>
+            <div class="p-2 "><a href="https://icfj.org" target="_blank" rel="noopener"><img src="img/logos/logo1.png " alt="ICFJ logo " class="img-fluid " width="100px " height="80px "></a></div>
           </div>
         </div>
       </div>
@@ -17,21 +17,21 @@
           <h4><b>Credits </b></h4>
           <p class="para-2 ">This Project was created by a team of journalist, developers and designers at the Voice of America.</p>
         </div>
-        <p class="para-2 "> All images courtesy of the guardian</p>
+        <p class="para-2">All images courtesy of the Guardian.</p>
       </div>
       <div class="col-lg-3 ">
         <div class="col-padding ">
           <h4><b>Social Links</b></h4>
           <div class="d-flex flex-row ">
             <ul class="social-network social-circle ">
-              <li><a href="# " title="Twitter "><i class="fa fa-twitter "></i></a></li>
-              <li><a href="# " title="Facebook "><i class="fa fa-facebook "></i></a></li>
-              <li><a href="# " title="Instagram "><i class="fa fa-instagram "></i></a></li>
-              <li><a href="# " title="Mail "><i class="fa fa-envelope-o "></i></a></li>
+              <li><a href="{{ site.tw_url }}" target="_blank" rel="noopener" title="Twitter "><i class="fa fa-twitter "></i></a></li>
+              <li><a href="{{ site.fb_url }}" target="_blank" rel="noopener" title="Facebook "><i class="fa fa-facebook "></i></a></li>
+              <li><a href="{{ site.ig_url }}" target="_blank" rel="noopener" title="Instagram "><i class="fa fa-instagram "></i></a></li>
+              <li><a href="mailto:{{ site.email }}" target="_blank" rel="noopener" title="Mail "><i class="fa fa-envelope-o "></i></a></li>
             </ul>       
           </div>
-          <div class="d-flex flex-row-reverse pt-8 footnote ">
-            <p>CFA is an initiative of ICFJ</p>
+          <div class="d-flex flex-row-reverse pt-8 footnote">
+            <p><small><a href="https://codeforafrica.org/" target="_blank" rel="noopener">Code for Africa</a> is an initiative of <a href="https://icfj.org/" target="_blank" rel="noopener">ICFJ</a></small></p>
           </div>
         </div>
       </div>
@@ -47,4 +47,15 @@
 
 <!-- Custom JavaScript for this theme -->
 <script src="js/scrolling.js "></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44795600-41"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+
 
