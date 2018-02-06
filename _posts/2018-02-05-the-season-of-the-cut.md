@@ -1,12 +1,11 @@
 ---
 layout: "post"
-title: "the season of the cut"
+title: "THE SEASON OF THE CUT."
 categories: fgmstories
 permalink: the-season-of-the-cut
+author: Fardosa Mahamad
 ---
 
-The season of the cut
-By Fardosa Mahamad
 
 According to a report by World Health Organization female genital cutting also known as female genital mutilation (FGM) and female circumcision is practiced in twenty eight countries of sub-Saharan Africa, a few countries in the Middle East and Asia, and among immigrant population in Europe, North America and Australia. As many as 100-140 million girls undergo the practice, and at least two million girls are at risk of being cut each year, about six thousand girls a day.
 The Somali community living in Kenya (and in their native Somalia) has practiced Female circumcision for centuries. Oral tales have been cited by members of this community that trace the practice to Egyptian traders who brought it to Northern Somalia, from where it spread to the rest of the region. Pharaonic circumcision also known as infibulation was thought to have been started by a legendary woman ruler in Northern Somalia, Arawelo, who was known to castrate men and sew up women to suppress their sexual desire as a form of punishment.

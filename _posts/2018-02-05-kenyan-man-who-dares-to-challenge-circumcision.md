@@ -1,15 +1,12 @@
 ---
 layout: "post"
-title: "Kenyan man who dares challenge female circumcision"
+title: "KENYAN MAN WHO DARES TO CHALLENGE FEMALE CIRCUMSICION."
 categories: fgmstories
 permalink: kenyan-man-who-dares
+author: Lilian Kaivilu
 ---
 
 
-Kenyan man who dares to challenge female circumcision
-
-By Lilian Kaivilu
-@liliankaivilu
 
 Gesaka Chacha stands out in a group of community members assembled at a chief’s camp to discuss issues about female genital mutilation (FGM).
 

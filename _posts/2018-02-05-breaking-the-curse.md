@@ -1,13 +1,12 @@
 ---
 layout: "post"
-title: "Breaking the post"
+title: "BREAKING THE CURSE."
 categories: fgmstories
 permalink: breaking-the-curse
-
+author: Diana Kendi
 ---
 
-###BREAKING THE CURSE
-####By Diana Kendi 
+
 
 Sixty year old Longoima Lesiale has three wives and 21 children. Five out of his seven daughters have undergone the cut. 
 The remaining daughters have not been cut. This is mainly due to pressure from his youngest wife who finally succeeded in convincing him that the cut is retrogressive and causes harm to the girl.
