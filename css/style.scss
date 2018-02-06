@@ -96,7 +96,6 @@ section.newsletter {
 
 BUTTON CSS
 
-
 -------------------------*/
 
 .btn-primary {
@@ -118,6 +117,7 @@ BUTTON CSS
   background-color: #DAD8D8;
   border: 1px solid #DAD8D8;
   color: black;
+  outline: none!important;
 }
 
 .btn-outlined.btn-success {
