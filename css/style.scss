@@ -291,7 +291,7 @@ header.featuredstory h1 {
 }
 
 header.featuredstory h1 {
-  text-decoration: underline;
+  //text-decoration: underline;
 }
 
 header.featuredstory article {
@@ -312,7 +312,7 @@ header.featuredstory a {
 }
 header.featuredstory a:hover {
   color: #619183;
-
+  text-decoration-line: none;
 }
 
 /*-----------------------
