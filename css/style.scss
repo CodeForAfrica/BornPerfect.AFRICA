@@ -134,6 +134,7 @@ BUTTON CSS
     //border-color: #619183;
 //}
 
+
 h6 {
     overflow: hidden;
     text-align: center;
@@ -240,8 +241,8 @@ NAVIGATION SECTION CSS
 }
 
 .nav-item {
-  margin: 15px;
-  padding-top: 20px;
+  margin: 1rem;
+  padding-top: 1.2rem;
 }
 
 .social-menu {
@@ -282,12 +283,13 @@ header.featuredstory h1 {
 }
 
 .containerpadding {
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 .label-featuredstory {
   text-transform: uppercase;
   padding-bottom: 3rem;
+  color: #DEDEDE;
 }
 
 header.featuredstory h1 {
@@ -334,25 +336,29 @@ CALL TO ACTION SECTION CSS
   //padding-top: 2rem; //padding-bottom: 7rem;
 }
 
-.call-to-action .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-}
+//.call-to-action .overlay {
+  //position: absolute;
+  //background-color: #212529;
+  //height: 100%;
+  //width: 100%;
+  //top: 0;
+  //left: 0;
+  //opacity: 0.3;
+//}
 
 .rowpadding {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem
 }
 
 .columnpadding {
-  padding-bottom: 2rem
+  padding-bottom: 1rem;
+  padding-left: 5rem;
 }
 
+.gethelp{
+  padding-right:5rem;
+}
 /*------------------------
  
  ABOUT SECTION CSS
