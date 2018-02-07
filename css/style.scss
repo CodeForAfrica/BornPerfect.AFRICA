@@ -22,8 +22,8 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Raleway', 'Hammersmith One', sans-serif;
   font-weight: 700;
+  font-size:1rem;
 }
-
 
 /*---------------------
 
@@ -119,7 +119,7 @@ BUTTON CSS
   background-color: #619183;
   border: 0px solid #619183;
   color: white;
-  font-size: larger;
+  //font-size:;
 }
 .btn:focus {
   outline: 0 !important;
@@ -278,8 +278,8 @@ header.featuredstory .overlay {
   opacity: 0.3;
 }
 
-header.featuredstory h1 {
-  font-size: 2rem;
+header.featuredstory h2 {
+  font-size: 3rem;
 }
 
 .containerpadding {
@@ -306,7 +306,7 @@ header.featuredstory article {
     padding-bottom: 5rem;
   }
   header.featuredstory h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 header.featuredstory a {
@@ -391,7 +391,7 @@ STORIES SECTION CSS
 -------------------------*/
 
 .parentcontainer {
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .stories-container {
@@ -423,7 +423,7 @@ STORIES SECTION CSS
 .lead-story-title {
   padding-top: 3rem;
   padding-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .lead-story-paragraph {
@@ -433,7 +433,7 @@ STORIES SECTION CSS
 }
 
 .side-story-author {
-  padding-top: 2rem;
+  padding-top: 0.95rem;
 }
 
 .side-story-article {
@@ -449,11 +449,11 @@ STORIES SECTION CSS
 }
 
 .side-story-row {
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 .third-story-article {
-  padding-top: 4rem;
+  padding-top: 8rem;
 }
 
 .third-story-paragraph {
@@ -461,11 +461,11 @@ STORIES SECTION CSS
 }
 
 .fourth-story-article {
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 .fifth-story-article {
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 a {
   color:black;
@@ -474,9 +474,14 @@ section.stories h3 a{
   color: white;
   text-decoration:none;
 }
+section.stories h5 a{
+  color: white;
+  text-decoration: none;
+}
 section.stories h4 a{
   color: white;
   text-decoration: none;
+  font-size: 1.3rem;
 }
 section.stories a:hover{
   color: #619183;
