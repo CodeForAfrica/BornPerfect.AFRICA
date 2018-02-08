@@ -3,15 +3,13 @@
 
 /*--------------------
 
-Author: Code for Africa;
+Author: Code for Africa
 
 ------------------------*/
-
 
 /*-----------------------
 
 BASE CSS
-
 ------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Raleway');
@@ -24,14 +22,12 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Raleway', 'Hammersmith One', sans-serif;
   font-weight: 700;
+  font-size:1rem;
 }
-
 
 /*---------------------
 
 SECTION CSS
-
-
 ------------------------*/
 
 section.about {
@@ -95,14 +91,13 @@ section.newsletter {
 /*------------------------
 
 BUTTON CSS
-
 -------------------------*/
 
 .btn-primary {
   color: #fff;
   background-color: #3a3a3a!important;
   border-color: #3a3a3a !important;
-  outline: #3a3a3a!important;
+  outline: none!important;
 }
 
 .btn-outlined {
@@ -124,11 +119,21 @@ BUTTON CSS
   background-color: #619183;
   border: 0px solid #619183;
   color: white;
-  font-size: larger;
+  //font-size:;
 }
 .btn:focus {
   outline: 0 !important;
 }
+.button-label {
+  border-style: solid;
+}
+
+//.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    //color: #fff;
+    //background-color: #619183;
+    //border-color: #619183;
+//}
+
 
 h6 {
     overflow: hidden;
@@ -159,8 +164,6 @@ h6{
 /*----------------------
 
 NAVIGATION SECTION CSS
-
-
 ------------------------*/
 
 .bg-dark {
@@ -190,9 +193,6 @@ NAVIGATION SECTION CSS
   }
 }
 
-//.scrollnav {
-  //background-color:black;
-//}
 
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -241,8 +241,8 @@ NAVIGATION SECTION CSS
 }
 
 .nav-item {
-  margin: 15px;
-  padding-top: 20px;
+  margin: 1rem;
+  padding-top: 1.2rem;
 }
 
 .social-menu {
@@ -253,10 +253,7 @@ NAVIGATION SECTION CSS
 
 /*------------------------
 
-
 FEATURED STORY SECTION CSS
-
-
 -------------------------*/
 
 header.featuredstory {
@@ -281,21 +278,22 @@ header.featuredstory .overlay {
   opacity: 0.3;
 }
 
-header.featuredstory h1 {
-  font-size: 2rem;
+header.featuredstory h2 {
+  font-size: 3rem;
 }
 
 .containerpadding {
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 .label-featuredstory {
   text-transform: uppercase;
   padding-bottom: 3rem;
+  color: #DEDEDE;
 }
 
 header.featuredstory h1 {
-  text-decoration: underline;
+  //text-decoration: underline;
 }
 
 header.featuredstory article {
@@ -308,7 +306,7 @@ header.featuredstory article {
     padding-bottom: 5rem;
   }
   header.featuredstory h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 header.featuredstory a {
@@ -316,15 +314,16 @@ header.featuredstory a {
 }
 header.featuredstory a:hover {
   color: #619183;
-
+  text-decoration-line: none;
+}
+.article-text{
+  color:#DEDEDE
 }
 
 /*-----------------------
 
 CALL TO ACTION SECTION CSS
-
-
- ------------------------*/
+-------------------------*/
 
 .call-to-action {
   position: relative;
@@ -337,41 +336,33 @@ CALL TO ACTION SECTION CSS
   //padding-top: 2rem; //padding-bottom: 7rem;
 }
 
-.call-to-action .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-}
+//.call-to-action .overlay {
+  //position: absolute;
+  //background-color: #212529;
+  //height: 100%;
+  //width: 100%;
+  //top: 0;
+  //left: 0;
+  //opacity: 0.3;
+//}
 
 .rowpadding {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem
 }
 
 .columnpadding {
-  padding-bottom: 2rem
+  padding-bottom: 1rem;
+  padding-left: 5rem;
 }
 
-/*-------------------
-Images rollover states
-
-
----------------------*/
-
-.rollover{
-  
+.gethelp{
+  padding-right:5rem;
 }
-
-
 /*------------------------
  
  ABOUT SECTION CSS
-
- ------------------------*/
+------------------------*/
 
 .about-container {
   padding-top: 4rem;
@@ -397,12 +388,10 @@ Images rollover states
 /*-----------------------
 
 STORIES SECTION CSS
-
-
- ------------------------*/
+-------------------------*/
 
 .parentcontainer {
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .stories-container {
@@ -434,7 +423,7 @@ STORIES SECTION CSS
 .lead-story-title {
   padding-top: 3rem;
   padding-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .lead-story-paragraph {
@@ -444,7 +433,7 @@ STORIES SECTION CSS
 }
 
 .side-story-author {
-  padding-top: 2rem;
+  padding-top: 0.95rem;
 }
 
 .side-story-article {
@@ -460,11 +449,11 @@ STORIES SECTION CSS
 }
 
 .side-story-row {
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 .third-story-article {
-  padding-top: 4rem;
+  padding-top: 8rem;
 }
 
 .third-story-paragraph {
@@ -472,11 +461,11 @@ STORIES SECTION CSS
 }
 
 .fourth-story-article {
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 .fifth-story-article {
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 a {
   color:black;
@@ -485,9 +474,14 @@ section.stories h3 a{
   color: white;
   text-decoration:none;
 }
+section.stories h5 a{
+  color: white;
+  text-decoration: none;
+}
 section.stories h4 a{
   color: white;
   text-decoration: none;
+  font-size: 1.3rem;
 }
 section.stories a:hover{
   color: #619183;
@@ -520,7 +514,6 @@ section.stories h6:after {
 /*----------------------
 
 VIDEO SECTION CSS
-
 -------------------------*/
 
 .video-section-row {
@@ -538,7 +531,6 @@ section.videos a:hover{
 /*----------------------
 
 PHOTO & PODCAST CSS
-
 ------------------------*/
 
 .photo-row-section {
@@ -565,18 +557,32 @@ PHOTO & PODCAST CSS
   width: 33.33%;
   height: auto;
   float: left;
-}
-
-.thumbnail {
-  overflow: hidden;
-  padding: 0;
-  position: relative;
   cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
 }
 
 .thumbnail img {
   max-width: 100%;
   height: auto;
+}
+.thumbnail:hover img{
+  transition: .3s linear;
+  transition-delay: 300ms;
+  transform: /* rotate(5deg) */ scale(1.4);
+}
+.large{
+  background: #000;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  display: none
+}
+.large img{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width:480px) {}
@@ -625,7 +631,6 @@ section.photo-podcast h6:after {
 /*-----------------------
 
 MAPPING SECTION CSS
-
 -------------------------*/
 
 .mapping-parent-container {
@@ -675,8 +680,7 @@ section.mapping ul li{
 /*----------------------
 
 CAMPAIGN SECTION CSS
-
- ------------------------*/
+-------------------------*/
 
 .campaign-icons {
   padding-top: 4rem;
@@ -720,8 +724,6 @@ CAMPAIGN SECTION CSS
 /*---------------------
 
 NEWSLETTER SECTION CSS
-
-
 -------------------------*/
 
 .newsletter {
@@ -770,8 +772,7 @@ NEWSLETTER SECTION CSS
 /*-------------
 
 FOOTER SECTION CSS
-
- ------------------------*/
+-------------------------*/
 
 footer.footer {
   padding-top: 4rem;
@@ -784,13 +785,15 @@ footer ul {
 }
 
 footer.para-1 {
-  color: #E7E7E7;
+  color: #DEDEDE;
+}
+.footer-titles{
+  padding-bottom:2rem;
 }
 
 footer.para-2 {
   color: #B6B6B6;
 }
-
 ul.social-network {
   list-style: none;
   display: inline;
@@ -804,56 +807,21 @@ ul.social-network li {
 }
 
 .footnote {
-  padding-top: 2rem;
+  padding-top: 8rem;
+}
+.fa {
+  color: #bdbdbd!important;
 }
 
-.social-circle li a {
-  display: inline-block;
-  position: relative;
-  margin: 0 auto 0 auto;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
+.fa:hover {
   border-radius: 50%;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  color: black;
+  background-color: white;
+}
+.footer a{
+  color:#619183;
+}
+.fa-inverse {
+  color: black!important;
 }
 
-.social-circle li i {
-  color: black;
-  margin: 0;
-  line-height: 50px;
-  text-align: center;
-}
 
-.social-circle i {
-  color: #C4C3C3;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  transition: all 0.8s;
-}
-
-.social-circle a {
-  background-color: #C4C3C3;
-  ;
-}
-
-.fa-facebook {
-  color: black;
-}
-
-.fa-twitter {
-  color: black;
-}
-
-.fa-instagram {
-  color: black;
-}
-
-.fa-envelope-o {
-  color: black;
-}
