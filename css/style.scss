@@ -672,14 +672,20 @@ MAPPING SECTION CSS
 }
 
 section.mapping ul {
-  //margin: 0 0 0 0;
   line-height: 1.5;
   list-style-type: none;
-  padding-bottom: 3rem;
   margin: 0;
 }
 section.mapping ul li{
   padding-bottom: 0.5rem;
+}
+#mapsreshape {
+    padding-top: 0px;
+    position: relative;
+}
+
+#mapsreshape iframe {
+  height:calc(100vh - 100px);
 }
 
 
@@ -709,7 +715,7 @@ CAMPAIGN SECTION CSS
 }
 
 .campaign-icons .campaign-icons-item .campaign-icons-icon {
-  height: 3rem;
+  height: 1.5rem;
 }
 
 .campaign-icons .campaign-icons-item .campaign-icons-icon i {
