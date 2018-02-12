@@ -243,6 +243,7 @@ NAVIGATION SECTION CSS
   color:#619183;
 }
 
+
 .navbar-toggler {
   padding: .25rem .75rem;
   font-size: 1.25rem;
@@ -283,7 +284,7 @@ FEATURED STORY SECTION CSS
 header.featuredstory {
   position: relative;
   background-color: #343a40;
-  background: url('../img/Header-banner.jpg') no-repeat center center;
+  background: url('../img/background/Header-banner.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -351,7 +352,7 @@ CALL TO ACTION SECTION CSS
 
 .call-to-action {
   position: relative;
-  background: url('../img/Button-BG.jpg') no-repeat center center;
+  background: url('../img/background/Button-BG.jpg') no-repeat center center;
   //background-color: #619183;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -534,6 +535,9 @@ section.stories h6:after {
     left: 0.5em;
     margin-right: -50%;
 }
+section.stories strong{
+  padding:1rem;
+}
 
 /*----------------------
 
@@ -550,6 +554,33 @@ section.videos a:hover{
   text-decoration: none;
 }
 
+section.videos h6 {
+    overflow: hidden;
+    text-align: center;
+    padding-right:2rem;
+    padding-left:2rem;
+}
+section.videos h6:before,
+section.videos h6:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 45%;
+}
+section.videos h6:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+section.videos h6:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+section.videos strong{
+  padding:1rem;
+}
 /*----------------------
 
 PHOTO & PODCAST CSS
@@ -762,7 +793,7 @@ NEWSLETTER SECTION CSS
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url('../img/Footer-Banner.jpg') no-repeat center center;
+  background: url('../img/background/Footer-Banner.jpg') no-repeat center center;
 }
 
 .newsletter .newsletter-item {
