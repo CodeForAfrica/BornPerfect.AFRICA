@@ -239,6 +239,9 @@ NAVIGATION SECTION CSS
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
   color: #262626;
 }
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+  color:#619183;
+}
 
 .navbar-toggler {
   padding: .25rem .75rem;
@@ -266,6 +269,9 @@ NAVIGATION SECTION CSS
 .social-menu {
   display: flex;
   padding-top: 0.4rem;
+}
+.nav-item:hover{
+  color:#619183;
 }
 
 
