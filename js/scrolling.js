@@ -38,6 +38,10 @@
     target: '#mainNav',
     offset: 54
   });
+ 
+ function change_background(color){
+  document.bgColor=color;
+ }
 
 //change color on scroll
 //$(window).on('scroll', function(){
