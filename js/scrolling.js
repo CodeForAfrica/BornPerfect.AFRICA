@@ -38,7 +38,7 @@
     target: '#mainNav',
     offset: 54
   });
-
+ 
 //change color on scroll
 //$(window).on('scroll', function(){
   //i//f($(window).scrollTop()){
