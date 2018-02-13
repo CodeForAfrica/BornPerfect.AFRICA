@@ -615,6 +615,10 @@ PHOTO & PODCAST CSS
   position: relative;
   padding: 0;
 }
+.thumbnail img:hover {
+ border: 100%;
+  border-color: auto;
+}
 
 .thumbnail img {
   max-width: 100%;
