@@ -615,14 +615,14 @@ PHOTO & PODCAST CSS
   position: relative;
   padding: 0;
 } 
-.thumbnail img:hover { 
-  border: 3px solid #619183; 
-}
-
 .thumbnail img {
   max-width: 100%;
   height: auto;
 }
+.thumbnail img:hover { 
+  border: 3px solid #619183; 
+}
+
 
 @media screen and (max-width:480px) {
   max-width:100%;
