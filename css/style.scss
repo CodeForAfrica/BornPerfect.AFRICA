@@ -614,10 +614,9 @@ PHOTO & PODCAST CSS
   overflow: hidden;
   position: relative;
   padding: 0;
-}
-.thumbnail img:hover {
- border: 100%;
-  border-color: auto;
+} 
+.thumbnail img:hover { 
+  border: 3px solid #619183; 
 }
 
 .thumbnail img {
