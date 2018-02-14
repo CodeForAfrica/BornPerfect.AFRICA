@@ -614,31 +614,20 @@ PHOTO & PODCAST CSS
   overflow: hidden;
   position: relative;
   padding: 0;
-}
-
+} 
 .thumbnail img {
   max-width: 100%;
   height: auto;
 }
-.thumbnail:hover img{
-  transition: .3s linear;
-  transition-delay: 300ms;
-  transform: /* rotate(5deg) */ scale(1.4);
-}
-.large{
-  background: #000;
-  width: 90%;
-  margin: 0 auto;
-  padding: 30px;
-  display: none
-}
-.large img{
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
+.thumbnail img:hover { 
+  border: 3px solid #619183; 
 }
 
-@media screen and (max-width:480px) {}
+
+@media screen and (max-width:480px) {
+  max-width:100%;
+  height:auto;
+}
 
 .podcast-row-section {
   padding-left: 0.9rem;
