@@ -14,11 +14,14 @@ BASE CSS
 
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Raleway');
 
+html{
+}
 
 body {
   font-family: 'Raleway', 'Hammersmith One', sans-serif;
   background-color: #262626;
-  display: inline-block;  
+  display: inline-block;
+  //width: fit-content;  
   min-width: 100%;
   box-sizing: border-box;
 }
@@ -670,6 +673,11 @@ section.photo-podcast h6:before {
 section.photo-podcast h6:after {
     left: 0.5em;
     margin-right: -50%;
+}
+.sc-button-cta, .sc-button-cta:focus, .sc-button-cta:hover, .sc-button-cta:visited, .sc-button.sc-button-white:focus, .sc-button.sc-button-white:hover {
+    background-color: #779b90!important;
+    border-color: #779b90!important;
+     color: #fff!important;
 }
 
 /*-----------------------
