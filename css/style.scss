@@ -14,11 +14,13 @@ BASE CSS
 
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Raleway');
 
+
 body {
   font-family: 'Raleway', 'Hammersmith One', sans-serif;
   background-color: #262626;
+  display: inline-block;  
+  min-width: 100%;
 }
-
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Raleway', 'Hammersmith One', sans-serif;
   font-weight: 700;
@@ -210,7 +212,6 @@ NAVIGATION SECTION CSS
     font-size: 1.5em;
   }
 }
-
 
 #mainNav .navbar-nav {
   margin-top: 1rem;
