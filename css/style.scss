@@ -52,6 +52,8 @@ width: 100%;
 height: 100%;
 }
 
+
+
 /*---------------------
 
 SECTION CSS
@@ -183,6 +185,12 @@ BUTTON CSS
     //background-color: #619183;
     //border-color: #619183;
 //}
+
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
 
 
 h6 {
@@ -415,6 +423,83 @@ CALL TO ACTION SECTION CSS
 .gethelp{
   //padding-right:5rem;
 }
+
+/*GET HELP BUTTON*/
+
+.button-get-help {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 25px 90px;
+    border: 1px solid #5e8478;
+    border-radius: 0px;
+    background: #5e8478;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5e8478), to(#5e8478));
+    background: -moz-linear-gradient(top, #5e8478, #5e8478);
+    background: linear-gradient(to bottom, #5e8478, #5e8478);
+    font: normal normal bold 48px Raleway;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button-get-help:hover,
+.button-get-help:focus {
+    border: 1px solid #ffffff;
+    padding: 25px 90px;
+    background: #ffffff;
+}
+
+.button-get-help:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    //background: url("../img/gethelpwhite.png") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+
+/* REPORT ABUSE BUTTON*/
+.button-report-abuse {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 30px 82px;
+    border: 1px solid #5e8478;
+    border-radius: 0px;
+    background: #5e8478;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5e8478), to(#5e8478));
+    background: -moz-linear-gradient(top, #5e8478, #5e8478);
+    background: linear-gradient(to bottom, #5e8478, #5e8478);
+    font: normal normal bold 48px Raleway;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button-report-abuse:hover,
+.button-report-abuse:focus {
+  border: 1px solid #ffffff;
+  padding: 30px 82px;
+  background: #ffffff;
+}
+.button-report-abuse:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 100px;
+    width: 330px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    //background: url("../img/reportabusewhite.png") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
 /*------------------------
  
  ABOUT SECTION CSS
