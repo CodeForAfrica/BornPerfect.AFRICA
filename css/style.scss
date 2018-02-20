@@ -184,10 +184,10 @@ BUTTON CSS
     //border-color: #619183;
 //}
 
-
 .btn:focus,.btn:active:focus,.btn.active:focus,
 .btn.focus,.btn:active.focus,.btn.active.focus {
     outline: none;
+    box-shadow:none;
 }
 
 
@@ -445,6 +445,10 @@ CALL TO ACTION SECTION CSS
     border: 1px solid #ffffff;
     padding: 25px 90px;
     background: #ffffff;
+    //-webkit-transition: background 1s;
+    //-moz-transition: background 1s;
+    //-o-transition: background 1s;
+    //transition: background .5s
 }
 
 .button-get-help:before{
@@ -483,6 +487,10 @@ CALL TO ACTION SECTION CSS
   border: 1px solid #ffffff;
   padding: 30px 82px;
   background: #ffffff;
+  //-webkit-transition: background 1s;
+  //-moz-transition: background 1s;
+  //-o-transition: background 1s;
+  //transition: background .5s
 }
 .button-report-abuse:before{
     content:  "\0000a0";
@@ -496,6 +504,9 @@ CALL TO ACTION SECTION CSS
     left: 2px;
     //background: url("../img/reportabusewhite.png") no-repeat left center transparent;
     background-size: 100% 100%;
+}
+.onmousehover:hover {
+  transition:.1s;
 }
 
 /*------------------------
