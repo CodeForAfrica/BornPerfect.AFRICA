@@ -26,30 +26,18 @@ body {
   height:100vh;
   box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
   font-family: 'Raleway', 'Hammersmith One', sans-serif;
   font-weight: 700;
   font-size: 1rem;
 }
+h1 {
+  font-family: 'Raleway', 'Hammersmith One', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
 .borders{
   border-radius:0px
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px; 
-  height: 0; 
-  overflow: hidden;
-}
-.video-container iframe,
-.video-container object,
-.video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
 }
 
 /*---------------------
@@ -340,8 +328,8 @@ header.featuredstory .overlay {
   opacity: 0.3;
 }
 
-header.featuredstory h2 {
-  font-size: 3rem;
+header.featuredstory h1 {
+  font-size: 4rem;
 }
 
 .containerpadding {
@@ -351,6 +339,7 @@ header.featuredstory h2 {
 .label-featuredstory {
   text-transform: uppercase;
   padding-bottom: 3rem;
+  padding-top: 2rem;
   color: #DEDEDE;
 }
 
@@ -360,6 +349,7 @@ header.featuredstory h1 {
 
 header.featuredstory article {
   padding-top: 2rem;
+  font-size:1.55rem;
 }
 
 @media (min-width: 768px) {
@@ -397,6 +387,16 @@ CALL TO ACTION SECTION CSS
   background-size: cover;
   //padding-top: 2rem; //padding-bottom: 7rem;
 }
+.page-call-to-action {
+  position: relative;
+  background: url('../img/background/Button-BG-tall.PNG') no-repeat center center;
+  //background-color: #619183;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  //padding-top: 2rem; //padding-bottom: 7rem;
+}
 
 //.call-to-action .overlay {
   //position: absolute;
@@ -411,6 +411,8 @@ CALL TO ACTION SECTION CSS
 .rowpadding {
   padding-top: 3rem;
   padding-bottom: 2rem;
+  //padding-left:8rem;
+  //padding-right:10rem;
 }
 
 .columnpadding {
@@ -428,7 +430,7 @@ CALL TO ACTION SECTION CSS
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    padding: 25px 90px;
+    //padding: 25px 90px;
     border: 1px solid #5e8478;
     border-radius: 0px;
     background: #5e8478;
@@ -443,7 +445,7 @@ CALL TO ACTION SECTION CSS
 .button-get-help:hover,
 .button-get-help:focus {
     border: 1px solid #ffffff;
-    padding: 25px 90px;
+    //padding: 25px 90px;
     background: #ffffff;
     //-webkit-transition: background 1s;
     //-moz-transition: background 1s;
@@ -471,7 +473,7 @@ CALL TO ACTION SECTION CSS
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    padding: 30px 82px;
+    //padding: 30px 82px;
     border: 1px solid #5e8478;
     border-radius: 0px;
     background: #5e8478;
@@ -485,7 +487,7 @@ CALL TO ACTION SECTION CSS
 .button-report-abuse:hover,
 .button-report-abuse:focus {
   border: 1px solid #ffffff;
-  padding: 30px 82px;
+  //padding: 30px 82px;
   background: #ffffff;
   //-webkit-transition: background 1s;
   //-moz-transition: background 1s;
@@ -521,7 +523,6 @@ CALL TO ACTION SECTION CSS
 .about-row {
   padding-top: 1rem;
   padding-right: 1rem;
-  padding-left: 2rem;
   padding-bottom: 3rem;
 }
 
@@ -820,6 +821,7 @@ MAPPING SECTION CSS
 }
 .mapping-intro {
   margin-left:3rem;
+  padding-bottom:.8rem;
 }
 
 .explore-button {
@@ -873,7 +875,7 @@ CAMPAIGN SECTION CSS
 
 .born-free-container {
   padding-top: 5rem;
-  padding-left: 1.8rem;
+  //padding-left: 1.8rem;
 }
 
 .campaign-icons .campaign-icons-item {
