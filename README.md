@@ -4,6 +4,12 @@
 
 Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
 
+
+![bornperfect.png]({{site.baseurl}}/bornperfect.png)
+
+
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
