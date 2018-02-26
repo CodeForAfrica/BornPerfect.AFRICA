@@ -1,6 +1,6 @@
 
 # FGM.Africa
-#BornPerfect
+# BornPerfect
 
 Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
 
