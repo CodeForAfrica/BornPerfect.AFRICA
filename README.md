@@ -1,7 +1,4 @@
 
-<a href="https://bornperfect.org/">
-    <img src="./img/logos/Logo-full-transparent.jpg" alt="bornperfect logo" title="Bornperfect" align="right" height="100" />
-</a>
 
 BornPerfect
 ======================
