@@ -5,7 +5,7 @@
 Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
 
 
-
+![bornperfect.png]({{site.baseurl}}/bornperfect.png)
 
 
 
