@@ -15,7 +15,7 @@ This is what you need to set up BornPerfect on your machine.
 
 - [Jekyll](https://jekyllrb.com/)
 
-You need Ruby and gem before starting. If you dont have this installed ,check out this [document](https://www.ruby-lang.org/en/documentation/installation/) for a quick setup. 
+You need Ruby and gem before starting. If you dont have this installed, check out this [document](https://www.ruby-lang.org/en/documentation/installation/) for a quick setup. 
 
 Use Ruby gems to install jekyll. Run the following command
 
@@ -31,17 +31,19 @@ Pluggin used to generate carousel images fot the site.
 
 ### Running Locally
 
-Clone the project  [https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git)
+Clone the project [https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git)
 
 ```
-$ git clone 
+$ git clone
+
 $ cd BornPerfect.Africa
 ```
+
 
 Serve the project by running the folllowing command
 
 ```
-$jekyll serve
+$ jekyll serve
 
 ```
 Open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to view the project on your local machine.
@@ -49,8 +51,9 @@ Open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to view the project on you
 Happy Coding!
 
 
+## Contributing
 
-
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before we have a templates here and here for an easy start.
 
 
 ## Built With
