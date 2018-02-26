@@ -2,15 +2,11 @@
 # FGM.Africa
 
 
-# BornPerfect
-
-
-
-<a href="https://aimeos.org/">
-    <img src="/img/Logo-full-transparent.jpg" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+<a href="https://bornperfect.org/">
+    <img src="/img/Logo-full-transparent.jpg" alt="bornperfect logo" title="Bornperfect" align="right" height="60" />
 </a>
 
-Aimeos TYPO3 extension
+BornPerfect
 ======================
 
 
