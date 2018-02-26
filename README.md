@@ -53,7 +53,7 @@ Happy Coding!
 
 ## Contributing
 
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before we have a templates here and here for an easy start.
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before we have a templates [here](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA/issues) and [here](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA/pulls) for an easy start.
 
 
 ## Built With
