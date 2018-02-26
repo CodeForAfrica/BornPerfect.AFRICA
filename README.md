@@ -8,32 +8,34 @@ Stories from across the continent about FGM. Supported by Code for Africa and IC
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+
 ### Prerequisites
 
 This is what you need to set up BornPerfect on your machine.
 
 - [Jekyll](https://jekyllrb.com/)
 
-You need Ruby and gem before starting. If you dont have this installed ,check out this [document](https://www.ruby-lang.org/en/documentation/installation/) for a quick setup. Use Ruby gems to install jekyll
+You need Ruby and gem before starting. If you dont have this installed ,check out this [document](https://www.ruby-lang.org/en/documentation/installation/) for a quick setup. 
 
-Run the following command to install jekyll on your machine.
+Use Ruby gems to install jekyll. Run the following command
 
 ```
 $ gem install jekyll bundler
 ```
 
-- [Gallery Pluggin]()
+- [Gallery Pluggin](https://github.com/blueimp/Gallery)
+
+Pluggin used to generate carousel images fot the site.
+
 
 
 ### Running Locally
 
-A step by step series of examples that tell you have to get a development env running
-
-Clone the project
+Clone the project  [https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git)
 
 ```
-$git clone [https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git)
-$cd BornPerfect.Africa
+$ git clone 
+$ cd BornPerfect.Africa
 ```
 
 Serve the project by running the folllowing command
@@ -44,17 +46,23 @@ $jekyll serve
 ```
 Open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to view the project on your local machine.
 
+Happy Coding!
+
+
+
+
+
+
 ## Built With
 
-* [Boostrap](https://getbootstrap.com/) - The framework used.
-* [Jekyll](https://jekyllrb.com/) - Static site generator used.
-* [Gallery](https://rometools.github.io/rome/) - Photo gallery pluggin used.
+* [Boostrap](https://getbootstrap.com/) -  The open source toolkit for developing with HTML, CSS, and JS.
+* [Jekyll](https://jekyllrb.com/) - Transform you plain text to static sites and blog posts .
+* [Gallery](https://github.com/blueimp/Gallery) - Photo gallery pluggin .
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+This project is licensed under the MIT License.
 ## Acknowledgments
 
-* Gallery[]
+* [Gallery Pluggin](https://github.com/blueimp/Gallery) by [Sebastian Tschan](https://github.com/blueimp)
