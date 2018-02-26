@@ -4,6 +4,17 @@
 
 # BornPerfect
 
+
+
+<a href="https://aimeos.org/">
+    <img src="/img/Logo-full-transparent.jpg" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+</a>
+
+Aimeos TYPO3 extension
+======================
+
+
+
 Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
 
 
