@@ -5,7 +5,10 @@
 Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
 
 
-![bornperfect.png]({{site.baseurl}}/bornperfect.png)
+<p align="center">
+  <img src="./img/bornperfect.png" alt="Bornperfect.Africa"
+       width="650" height="335">
+</p>
 
 
 
