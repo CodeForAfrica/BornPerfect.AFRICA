@@ -1,8 +1,9 @@
 
 # FGM.Africa
 
+
 <a href="https://bornperfect.org/">
-    <img src="/img/Logo-full-transparent.jpg" alt="bornperfect logo" title="Bornperfect" align="right" height="60" />
+    <img src="./img/logos/Logo-full-transparent.jpg" alt="bornperfect logo" title="Bornperfect" align="right" height="60" />
 </a>
 
 BornPerfect
@@ -12,7 +13,7 @@ Stories from across the continent about FGM. Supported by Code for Africa and IC
 
 
 <p align="center">
-  <img src="/logos/img/bornperfect.png" alt="Bornperfect.Africa"
+  <img src="./img/bornperfect.png" alt="Bornperfect.Africa"
        width="" height="" style="border:box-sizing: box-shadow:2px;">
 </p>
 
