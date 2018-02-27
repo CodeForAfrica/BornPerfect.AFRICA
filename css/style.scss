@@ -669,12 +669,17 @@ section.videos a:hover{
   color: #619183;
   text-decoration: none;
 }
+.author-content {
+  padding-left: 1rem;
+  margin-top: 0.4rem;
+  font-size: 13px;
+}
 
 section.videos h6 {
     overflow: hidden;
     text-align: center;
-    padding-right:2rem;
-    padding-left:2rem;
+    padding-right: 5rem;
+    padding-left: 2rem;
 }
 section.videos h6:before,
 section.videos h6:after {
