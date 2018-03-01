@@ -715,6 +715,7 @@ PHOTO & PODCAST CSS
 .gallery {
   margin: 0;
   padding: 0;
+  overflow: hidden;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -729,23 +730,32 @@ PHOTO & PODCAST CSS
 .thumbnail {
   background: #000;
   width: 33.33%;
-  height: auto;
+  //height: auto;
   float: left;
   cursor: pointer;
   overflow: hidden;
   position: relative;
   padding: 0;
+  overflow:hidden;
+  height:135.86px;
 } 
 .thumbnail img {
   max-width: 100%;
   height: auto;
+  padding: 0px;
 }
 .thumbnail img:hover { 
   border: 3px solid #619183; 
+  overflow: hidden;
+
 }
 
-
 @media screen and (max-width:480px) {
+  max-width:100%;
+  height:auto;
+}
+
+@media screen and (max-width:600px) {
   max-width:100%;
   height:auto;
 }
@@ -1019,5 +1029,10 @@ ul.social-network li {
 }
 .fa-inverse {
   color: black!important;
+}
+.overlay{
+  background-size:cover;
+  color: #3a3a3a;
+  opacity: 0.25;
 }
 
