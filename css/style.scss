@@ -70,8 +70,6 @@ section.campaign {
   height: 100vh;
   color: black;
 }
-
-
 section.about-text-container {
   position: relative;
   width:100%;
@@ -269,6 +267,11 @@ NAVIGATION SECTION CSS
     font-size: 1.5em;
   }
 }
+//@media (min-width: 992px)
+//.navbar-expand-lg .navbar-nav .nav-link {
+    //padding-right: .5rem;
+    //padding-left: .5rem;
+//}
 
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -321,7 +324,7 @@ NAVIGATION SECTION CSS
 }
 
 .nav-item {
-  margin: 1rem;
+  margin: 0.4rem;
   padding-top: 1.2rem;
 }
 
@@ -332,8 +335,6 @@ NAVIGATION SECTION CSS
 .nav-item:hover{
   color:#619183;
 }
-
-
 
 /*------------------------
 
