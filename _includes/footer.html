@@ -1,16 +1,14 @@
 <!--Footer Section-->
 <footer class="footer text-white">
-  <div class="container ">
-    <div class="row row grid-divider ">
-      <div class="col-md-12 col-lg-6 " style="padding-right:4rem;">
-        <div class="col-padding ">
-          <div class="footer-titles" style="font-size: x-large;color:#bdbdbd;"><h2">About Born Perfect</h2></div>
-          <p class="para-1" style="color:#bdbdbd;font-size:0.9rem;">Female Genital Mutilation (FGM) is a violation of the human rights of girls and women, and yet more than 200 million alive today have been cut in 30 countries across Africa, the Middle East and Asia. The ‘Born Perfect’ project documents FGM in Africa to spread awareness so that the number is reduced to zero.</p> 
-          <div class="d-flex flex-row ">
-            <div class="p-2 overlay" style="margin:10px;"><a href="https://codeforafrica.org/" target="_blank" rel="noopener"><img src="img/logos/cfafrica-transparent.png " class="img-fluid " alt="Code for africa logo " width="80px " height="80px "/></a></div>
-            <div class="p-2 overlay " style="margin:10px;"><a href="https://icfj.org" target="_blank" rel="noopener"><img src="img/logos/icfj-white.png " alt="ICFJ logo " class="img-fluid " width="80px " height="80px " style=""></a></div>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-6 " style="padding-right:4rem;"> <!-- Remove padding. Use offset -->
+        <div class="footer-titles" style="font-size: x-large;color:#bdbdbd;"><h2">About Born Perfect</h2></div> <!-- Change to heading | Delete footer-titles in style | Fix h2 | Create text-gray class for color -->
+        <p style="color:#bdbdbd;font-size:0.9rem;">Female Genital Mutilation (FGM) is a violation of the human rights of girls and women, and yet more than 200 million alive today have been cut in 30 countries across Africa, the Middle East and Asia. The ‘Born Perfect’ project documents FGM in Africa to spread awareness so that the number is reduced to zero.</p> <!-- Use .small + .text-gray --> 
+        <div class="d-flex flex-row ">
+          <div class="p-2 overlay" style="margin:10px;"><a href="https://codeforafrica.org/" target="_blank" rel="noopener"><img src="img/logos/cfafrica-transparent.png " class="img-fluid " alt="Code for africa logo " width="80px " height="80px "/></a></div>
+          <div class="p-2 overlay " style="margin:10px;"><a href="https://icfj.org" target="_blank" rel="noopener"><img src="img/logos/icfj-white.png " alt="ICFJ logo " class="img-fluid " width="80px " height="80px " style=""></a></div>
+        </div><!-- Remove divs -->
       </div>
       <div class="col-lg-3 " style="padding-right:4rem;">
         <div class="col-padding ">
@@ -96,27 +94,26 @@
         options = {index: link, event: event},
         links = this.getElementsByTagName('a');
     blueimp.Gallery(links, options);
-};
+  };
 
-//initialize the gallery to set description based on current link
-blueimp.Gallery(
-  document.getElementById('links'),
-  {
-    onslide: function (index, slide) {
-      var text = this.list[index].getAttribute('data-description'),
-      node = this.container.find('.description');
-      node.empty();
-      if (text) {
-        node[0].appendChild(document.createTextNode(text));
+  //initialize the gallery to set description based on current link
+  blueimp.Gallery(
+    document.getElementById('links'),
+    {
+      onslide: function (index, slide) {
+        var text = this.list[index].getAttribute('data-description'),
+        node = this.container.find('.description');
+        node.empty();
+        if (text) {
+          node[0].appendChild(document.createTextNode(text));
+        }
       }
     }
-  }
   );
-
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44795600-41"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
