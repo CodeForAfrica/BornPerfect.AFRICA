@@ -1,54 +1,53 @@
-(function($) {
-  "use strict"; // Start of use strict
+(function ($) {
+  'use strict' // Start of use strict
 
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+    if (window.location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && window.location.hostname === this.hostname) {
+      var target = $(this.hash)
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']')
       if (target.length) {
         $('html, body').animate({
           scrollTop: (target.offset().top - 54)
-        }, 1000, "easeInOutExpo");
-        return false;
+        }, 1000, 'easeInOutExpo')
+        return false
       }
     }
-  });
+  })
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
+  $('.js-scroll-trigger').click(function () {
+    $('.navbar-collapse').collapse('hide')
+  })
 
   // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
+  var navbarCollapse = function () {
+    if ($('#mainNav').offset().top > 100) {
+      $('#mainNav').addClass('navbar-shrink')
     } else {
-      $("#mainNav").removeClass("navbar-shrink");
+      $('#mainNav').removeClass('navbar-shrink')
     }
-  };
+  }
   // Collapse now if page is not at top
-  navbarCollapse();
+  navbarCollapse()
   // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
+  $(window).scroll(navbarCollapse)
 
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: 54
-  });
- 
-//change color on scroll
-//$(window).on('scroll', function(){
-  //i//f($(window).scrollTop()){
-    //$('nav').addClass('scrollnav');
-  //}
-  //else {
-    //$('nav').removeClass()
-  //}
-//})
+  })
+
+// change color on scroll
+// $(window).on('scroll', function(){
+  // i//f($(window).scrollTop()){
+  // $('nav').addClass('scrollnav');
+  // }
+  // else {
+  // $('nav').removeClass()
+  // }
+// })
 //
-
-
-})(jQuery); // End of use strict
+// End of use strict
+})(jQuery) // eslint-disable-line

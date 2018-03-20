@@ -1,11 +1,11 @@
-'use strict';
-var autoprefixer = require('gulp-autoprefixer');
-var csso = require('gulp-csso');
-var del = require('del');
-var gulp = require('gulp');
-var uglify = require('gulp-uglify');
-var minifyCss = require("gulp-minify-css");
-//Browser support
+'use strict'
+var autoprefixer = require('gulp-autoprefixer')
+var csso = require('gulp-csso')
+var del = require('del')
+var gulp = require('gulp')
+var uglify = require('gulp-uglify')
+var minifyCss = require('gulp-minify-css')
+// Browser support
 const AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
   'ie_mob >= 10',
@@ -16,27 +16,20 @@ const AUTOPREFIXER_BROWSERS = [
   'ios >= 7',
   'android >= 4.4',
   'bb >= 10'
-];
-gulp.task('default', function() {
-	console.log('Gulp is running correctly');
+]
+gulp.task('default', function () {
+  console.log('Gulp is running correctly')
 })
 
 gulp.task('minify-css', function () {
-    gulp.src('./Css/style.css')
+  gulp.src('./css/style.css')
     .pipe(minifyCss())
-    .pipe(gulp.dest('css/minifiedcss'));
-});
+    .pipe(gulp.dest('css/minifiedcss'))
+})
 
-gulp.task('script', function() {
-	return gulp.src('./js/**/*.js')
-	//minify the file
-	.pipe(uglify())
-	.pipe(gulp.dest('./js/minifiedjs'))
-});
-
-
-
-
-
-
-
+gulp.task('script', function () {
+  return gulp.src('./js/**/*.js')
+  // minify the file
+    .pipe(uglify())
+    .pipe(gulp.dest('./js/minifiedjs'))
+})
