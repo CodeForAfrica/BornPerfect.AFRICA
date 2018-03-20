@@ -150,6 +150,17 @@ section.team{
   //color: #262626;
   background-color: #fff;
 }
+section.team h3{
+  font-weight:900;
+  font-size:1.2rem;
+}
+section.team p{
+  font-size:0.8rem;
+}
+section.team img{
+  height:200px;
+  width:200px;
+}
 
 /*------------------------
 
@@ -340,6 +351,9 @@ NAVIGATION SECTION CSS
 }
 .nav-item:hover{
   color:#619183;
+}
+.main-logo{
+  max-heigth:100%
 }
 
 /*------------------------

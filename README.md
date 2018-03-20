@@ -7,7 +7,7 @@ Stories from across the continent about FGM. Supported by Code for Africa and IC
 
 
 <p align="center">
-  <img src="./img/bornperfect.png" alt="Bornperfect.Africa"
+  <img src="" alt="Bornperfect.Africa"
        width="" height="" style="padding-top:20px;">
 </p>
 
