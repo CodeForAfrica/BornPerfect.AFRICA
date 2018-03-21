@@ -3,7 +3,7 @@
 BornPerfect
 ======================
 
-Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
+>Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
 
 
 
