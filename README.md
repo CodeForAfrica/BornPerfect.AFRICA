@@ -1,5 +1,7 @@
 
-<img src="/img/logos/logo-transparent.jpg" height="150px" width="400px">
+## <img src="/img/logos/logo-transparent.jpg" height="auto" width="400px">
+
+
 
 
 >Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
