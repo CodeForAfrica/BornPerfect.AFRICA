@@ -6,12 +6,6 @@ BornPerfect
 Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
 
 
-<p align="center">
-  <img src="" alt="Bornperfect.Africa"
-       width="" height="" style="padding-top:20px;">
-</p>
-
-
 
 ## Getting Started
 
