@@ -26,10 +26,6 @@ Use Ruby gems to install jekyll. Run the following command
 $ gem install jekyll bundler
 ```
 
-- [Gallery Pluggin](https://github.com/blueimp/Gallery)
-
-Pluggin used to generate carousel images fot the site.
-
 
 
 ### Running Locally
