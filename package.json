@@ -17,7 +17,13 @@
     "gulp-uglify": "^3.0.0"
   },
   "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0",
     "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.3.1",
+    "jquery-easing": "^0.0.1",
+    "popper.js": "^1.12.3",
     "standard": "^11.0.1"
   },
   "repository": "https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA.git"

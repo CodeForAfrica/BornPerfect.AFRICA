@@ -51,6 +51,7 @@ img {
 SECTION CSS
 ------------------------*/
 section.about {
+  height:auto;
   min-height: 35rem;
   background-color:#221F1F!important;
 
@@ -58,23 +59,29 @@ section.about {
     padding: 3rem;
   }
 }
+section.about p{
+  font-size: 1rem;
+  font-family: Raleway;
+  padding-left:0.4rem;
+}
+section.about img{
+  width:550px;
+  height:auto;
+  max-width:100%;
+}
 
 @media (min-width: 768px) {
   .about .about-text {
     padding: 7rem;
   }
 }
-
-//@media (max-width: 800px) and (min-width: 600px) {
-  //.embed-responsive {
-    //width: 500px;
-  //}
-//}
-
 section.campaign {
   width: 100%;
-  height: 100vh;
+  height:auto;
   color: black;
+}
+section.campaign h3{
+  font-size: 1.5rem;
 }
 section.about-text-container {
   position: relative;
@@ -94,25 +101,37 @@ section.background-text-area {
   -o-background-size: cover;
   background-size: cover;
 }
-section.mapping {
+section.map {
   width: 100%;
-  height: 100vh;
+  height:auto;
+  min-height: 100vh;
   color: white!important;
   backgroun-color:#221F1F;
 }
-section.mapping button.btn-outlined.btn-success:hover {
+section.map h2 {
+  font-size:1.7rem;
+}
+section.map ul {
+  line-height: 1.5;
+  list-style-type: none;
+  margin: 0;
+}
+section.map ul li{
+  padding-bottom: 0.5rem;
+}
+section.map button.btn-outlined.btn-success:hover {
   background-color: #fff;
   border: 0px solid #619183;
   color: #779b90;
 }
-
 section.videos {
+  color: black;
   width: 100%;
-  height: 100vh;
+  height:auto;
+  height: 70vh;
   color: #262626;
   background-color: #fff;
 }
-
 section.stories {
   width: 100%;
   height: auto;
@@ -121,7 +140,8 @@ section.stories {
 }
 section.photo-podcast {
   width: 100%;
-  height: 100vh;
+  height:auto;
+  min-height: 80vh;
   color: black;
   background-color: white!important;
   padding: 70px 0;
@@ -129,8 +149,15 @@ section.photo-podcast {
 }
 section.newsletter {
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height:60vh;
   color: white!important;
+}
+section.newsletter h4  {
+  font-size:1.5rem;
+}
+section.newsletter p {
+  font-size:0.9rem;
 }
 section.partner-media {
   width: 100%;
@@ -161,6 +188,7 @@ section.team img{
   height:200px;
   width:200px;
 }
+
 
 /*------------------------
 
@@ -585,84 +613,34 @@ CALL TO ACTION SECTION CSS
 
 STORIES SECTION CSS
 -------------------------*/
-
-.parentcontainer {
-  padding-top: 4rem;
+.card-lead-height {
+  height:350px;
 }
-
-.stories-container {
-  padding-bottom: 5rem
+//Responsiveness
+.card-img-overlay {
+  min-height:350px;
+  display:inline-block;
+  max-width:100%;
+  height:auto;
+  overflow-y: hidden;
 }
-
-.stories-rowpadding {
-  padding-left: 1rem;
-  padding-bottom: 2rem;
-}
-
-.content-section {
-  margin: 0.65rem;
-}
-
-.row-content-section {
-  display: flex;
-}
-
-.lead {
+.lead-margin {
   margin-left: -1.9rem;
 }
-
-.lead-author {
-  padding-left: 1rem;
-  margin-top: 0.4rem;
-}
-
-.lead-story-title {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+.card-title {
   font-size: 2.6rem;
 }
-
-.lead-story-paragraph {
-  padding-bottom: 1rem;
+.lead-subtitle {
   color: #E7E7E7;
   font-size: 1.2rem;
 }
-
-.side-story-author {
-  padding-top: 0.95rem;
+.story-height {
+  height:300px;
 }
-
-.side-story-article {
+.story-title {
   padding-top: 8rem;
 }
 
-.subtitle {
-  padding-top: 1rem
-}
-
-.side-story-paragraph {
-  padding-top: 2rem;
-}
-
-.side-story-row {
-  padding-top: 1rem;
-}
-
-.third-story-article {
-  padding-top: 8rem;
-}
-
-.third-story-paragraph {
-  padding-top: 1rem;
-}
-
-.fourth-story-article {
-  padding-top: 10rem;
-}
-
-.fifth-story-article {
-  padding-top: 5rem;
-}
 a {
   color:black;
 }
@@ -715,11 +693,6 @@ section.stories strong{
 VIDEO SECTION CSS
 -------------------------*/
 
-.video-section-row {
-  padding-bottom: 2rem;
-  padding-left: 1rem;
-}
-
 section.videos a:hover{
   color: #619183;
   text-decoration: none;
@@ -761,11 +734,6 @@ section.videos strong{
 
 PHOTO & PODCAST CSS
 ------------------------*/
-
-.photo-row-section {
-  padding-left: 0.9rem;
-  padding-bottom: 2rem;
-}
 
 .gallery {
   margin: 0;
@@ -809,30 +777,21 @@ PHOTO & PODCAST CSS
   max-width:100%;
   height:auto;
 }
-
 @media screen and (max-width:600px) {
   max-width:100%;
   height:auto;
 }
-
-.podcast-row-section {
-  padding-left: 0.9rem;
-  padding-bottom: 2rem;
+.dime{
+  height:40px;
+  width:70px;
 }
-
-.podcast-card {
+.col-height {
   height: 540px;
 }
-
-.podcast-height {
-  height: 540px;
-}
-
 section.photo-podcast a:hover{
   color: #619183;
   text-decoration: none;
 }
-
 section.photo-podcast h6 {
     overflow: hidden;
     text-align: center;
@@ -865,23 +824,13 @@ section.photo-podcast h6:after {
 
 MAPPING SECTION CSS
 -------------------------*/
-
-.mapping-parent-container {
-  padding: 8rem;
+.p-2 {
+  height:80px;
+  width:80px;
 }
-
-.mapping-photo-row {
-  padding-top: 3rem;
-  padding-bottom:3rem;
-}
-
-.mapping-content {
-  padding-right: 2rem;
-  margin-right: 5rem;
-}
-.mapping-intro {
-  margin-left:3rem;
-  padding-bottom:.8rem;
+.p-2 img{
+  height:50px;
+  width:40px;
 }
 
 .explore-button {
@@ -899,68 +848,38 @@ MAPPING SECTION CSS
   padding-bottom: 2rem;
 }
 
-section.mapping ul {
-  line-height: 1.5;
-  list-style-type: none;
-  margin: 0;
-}
-section.mapping ul li{
-  padding-bottom: 0.5rem;
-}
-#mapsreshape {
-    padding-top: 0px;
-    position: relative;
-}
 
-#mapsreshape iframe {
-  height:calc(100vh - 100px);
-}
+//#mapsreshape {
+    //padding-top: 0px;
+    //position: relative;
+//}
 
+//#mapsreshape iframe {
+  //height:calc(100vh - 100px);
+//}
 
 /*----------------------
 
 CAMPAIGN SECTION CSS
 -------------------------*/
-
-.campaign-icons {
+.campaign {
   padding-top: 4rem;
   padding-bottom: 7rem;
   background-color: #fff!important;
   color: black;
 }
-
-.title-container {
-  padding-top: 2rem;
-}
-
-.born-free-container {
-  padding-top: 5rem;
-  //padding-left: 1.8rem;
-}
-
-.campaign-icons .campaign-icons-item {
+.campaign-icons-item {
   max-width: 20rem;
 }
-
-.campaign-icons .campaign-icons-item .campaign-icons-icon {
+.campaign-icons-item .campaign-icons-icon {
   height: 1.5rem;
 }
-
-.campaign-icons .campaign-icons-item .campaign-icons-icon i {
+.campaign-icons-item .campaign-icons-icon i {
   font-size: 4.5rem;
 }
-
-.campaign-icons .campaign-icons-item:hover .campaign-icons-icon i {
+.campaign-icons-item:hover .campaign-icons-icon i {
   font-size: 5rem;
 }
-
-.born-free-paragraph {
-  padding-left: 2rem;
-}
-
-
-
-
 /*---------------------
 
 NEWSLETTER SECTION CSS
@@ -974,7 +893,7 @@ NEWSLETTER SECTION CSS
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url('../img/background/Footer-Banner.jpg') no-repeat center center;
+  background: url('../img/background/Footer-Banner.jpg') no-repeat;
 }
 
 .newsletter .newsletter-item {
@@ -1035,26 +954,23 @@ NEWSLETTER SECTION CSS
 
 FOOTER SECTION CSS
 -------------------------*/
-
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
   background-color:#303030!important;
 }
-
+footer h2 {
+  font-size: x-large;
+}
+.text-gray {
+  color: #bdbdbd;
+}
 footer ul {
   display: flex;
 }
-
-footer.para-1 {
-  color: #DEDEDE;
-}
-.footer-titles{
-  padding-bottom:2rem;
-}
-
-footer.para-2 {
-  color: #B6B6B6;
+footer p {
+  color: #bdbdbd;
+  font-size: 0.9rem;
 }
 ul.social-network {
   list-style: none;

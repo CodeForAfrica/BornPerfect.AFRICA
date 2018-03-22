@@ -1,14 +1,17 @@
 
+## <img src="/img/logos/logo-transparent.jpg" height="auto" width="400px">
 
-BornPerfect
-======================
 
-Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
+
+
+=======
+>Stories from across the continent about FGM. Supported by Code for Africa and ICFJ.
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get a copy of the project up and running on your local machine for development and testing purposes.
+
 
 
 ### Prerequisites
@@ -25,9 +28,6 @@ Use Ruby gems to install jekyll. Run the following command
 $ gem install jekyll bundler
 ```
 
-- [Gallery Pluggin](https://github.com/blueimp/Gallery)
-
-Pluggin used to generate carousel images fot the site.
 
 
 
@@ -50,12 +50,12 @@ $ jekyll serve
 ```
 Open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) to view the project on your local machine.
 
-Happy Coding!
+>Happy Coding!
 
 
 ## Contributing
 
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before we have a templates [here](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA/issues) and [here](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA/pulls) for an easy start.
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before we have templates [here](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA/issues) and [here](https://github.com/CodeForAfricaLabs/BornPerfect.AFRICA/pulls) for an easy start.
 
 
 ## Built With
@@ -67,7 +67,9 @@ Issues and Pull Requests are greatly appreciated. If you've never contributed to
 
 ## License
 
-This project is licensed under the MIT License.
+>This project is licensed under the MIT License.
+
+
 ## Acknowledgments
 
 * [Gallery Pluggin](https://github.com/blueimp/Gallery) by [Sebastian Tschan](https://github.com/blueimp)
