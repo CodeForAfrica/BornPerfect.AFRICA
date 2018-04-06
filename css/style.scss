@@ -39,10 +39,8 @@ h1 {
 
 img {
   max-width: 100%;
-}
-
-.borders {
-  border-radius:0px
+  display:block;
+  height:auto;
 }
 
 
@@ -50,28 +48,25 @@ img {
 
 SECTION CSS
 ------------------------*/
-section.about {
+section.types-fgm {
   height:auto;
   min-height: 35rem;
   background-color:#221F1F!important;
 
-  .about-text {
-    padding: 3rem;
-  }
 }
-section.about p{
+section.types-fgm p{
   font-size: 1rem;
   font-family: Raleway;
   padding-left:0.4rem;
 }
-section.about img{
+section.types-fgm img{
   width:550px;
   height:auto;
   max-width:100%;
 }
 
 @media (min-width: 768px) {
-  .about .about-text {
+  .types-fgm {
     padding: 7rem;
   }
 }
@@ -83,7 +78,7 @@ section.campaign {
 section.campaign h3{
   font-size: 1.5rem;
 }
-section.about-text-container {
+section.about-page {
   position: relative;
   width:100%;
   height:60vh;
@@ -128,7 +123,7 @@ section.videos {
   color: black;
   width: 100%;
   height:auto;
-  height: 70vh;
+  min-height: 70vh;
   color: #262626;
   background-color: #fff;
 }
@@ -188,7 +183,6 @@ section.team img{
   height:200px;
   width:200px;
 }
-
 
 /*------------------------
 
@@ -312,12 +306,6 @@ NAVIGATION SECTION CSS
     font-size: 1.5em;
   }
 }
-//@media (min-width: 992px)
-//.navbar-expand-lg .navbar-nav .nav-link {
-    //padding-right: .5rem;
-    //padding-left: .5rem;
-//}
-
 #mainNav .navbar-nav {
   margin-top: 1rem;
   letter-spacing: 0.0625rem;
@@ -348,31 +336,25 @@ NAVIGATION SECTION CSS
 #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
   color:#619183;
 }
-
-
+#mainNav .navbar-nav .navbar-brand {
+  padding-left:10rem;
+}
 .navbar-toggler {
   padding: .25rem .75rem;
-  font-size: 1.25rem;
-  line-height: 1;
+  font-size: 4.25rem;
+  line-height: 2;
   background-color: #619183;
-  border: 2px solid #619183;
   border-radius: .25rem;
-  color: black;
+  height:5rem;
+  width:5rem;
 }
-
 .navbar-dark .navbar-nav .nav-link.active {
   color: black;
 }
-
-.menupadding {
-  padding-right: 8rem;
-}
-
 .nav-item {
   margin: 0.4rem;
   padding-top: 1.2rem;
 }
-
 .social-menu {
   display: flex;
   padding-top: 0.4rem;
@@ -388,7 +370,6 @@ NAVIGATION SECTION CSS
 
 FEATURED STORY SECTION CSS
 -------------------------*/
-
 header.featuredstory {
   position: relative;
   background-color: #343a40;
@@ -400,7 +381,6 @@ header.featuredstory {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
-
 header.featuredstory .overlay {
   position: absolute;
   background-color: #212529;
@@ -410,31 +390,15 @@ header.featuredstory .overlay {
   left: 0;
   opacity: 0.3;
 }
-
-header.featuredstory h1 {
-  font-size: 4rem;
+.featuredstory h1{
+  font-size:3.1rem!important;
 }
-
-.containerpadding {
-  padding-top: 4rem;
+.featuredstory.text {
+  color: #dedede;
 }
-
-.label-featuredstory {
-  text-transform: uppercase;
-  padding-bottom: 3rem;
-  padding-top: 2rem;
-  color: #DEDEDE;
-}
-
-header.featuredstory h1 {
-  //text-decoration: underline;
-}
-
-header.featuredstory article {
-  padding-top: 2rem;
+.featuredstory article {
   font-size:1.55rem;
 }
-
 @media (min-width: 768px) {
   header.featuredstory {
     padding-top: 10rem;
@@ -445,16 +409,15 @@ header.featuredstory article {
   }
 }
 header.featuredstory a {
-  color: white
+  color: white;
 }
 header.featuredstory a:hover {
   color: #619183;
   text-decoration-line: none;
 }
-.article-text{
-  color:#DEDEDE
+header.featuredstory a b {
+  font-size:1.2rem;
 }
-
 /*-----------------------
 
 CALL TO ACTION SECTION CSS
@@ -631,7 +594,7 @@ STORIES SECTION CSS
   font-size: 2.6rem;
 }
 .lead-subtitle {
-  color: #E7E7E7;
+  color: #e7e7e7;
   font-size: 1.2rem;
 }
 .story-height {
@@ -698,11 +661,9 @@ section.videos a:hover{
   text-decoration: none;
 }
 .author-content {
-  padding-left: 1rem;
-  margin-top: 0.4rem;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
-
+fea
 section.videos h6 {
     overflow: hidden;
     text-align: center;

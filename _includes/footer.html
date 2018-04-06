@@ -6,8 +6,8 @@
         <h2>About Born Perfect</h2>
         <p class="pt-2">Female Genital Mutilation (FGM) is a violation of the human rights of girls and women, and yet more than 200 million alive today have been cut in 30 countries across Africa, the Middle East and Asia. The ‘Born Perfect’ project documents FGM in Africa to spread awareness so that the number is reduced to zero.</smal</p> 
         <div class="d-flex flex-row ">
-          <a class="p-2 m-2 overlay" href="https://codeforafrica.org/" target="_blank" rel="noopener"><img src="img/logos/cfafrica-transparent.png " class="img-fluid " alt="Code for africa logo " width="80px " height="80px "/></a>
-          <a class="p-2 m-2 overlay" href="https://icfj.org" target="_blank" rel="noopener"><img src="img/logos/icfj-white.png " alt="ICFJ logo " class="img-fluid " width="80px " height="80px " style=""></a>
+          <a class="p-2 overlay" href="https://codeforafrica.org/" target="_blank" rel="noopener"><img src="img/logos/cfafrica-transparent.png" alt="Code for africa logo "  class="img-fluid" width="100px" height="80px"/></a>
+          <a class="p-2 overlay" href="https://icfj.org" target="_blank" rel="noopener"><img src="img/logos/icfj-white.png " alt="ICFJ logo" class="img-fluid" width="100px" height="80px"></a>
         </div>
     
       </div>
@@ -70,7 +70,7 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="/node_modules/dist/jquery.min.js "></script>
+<script src="vendor/jquery/jquery.min.js "></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
@@ -98,19 +98,19 @@
   };
 
   //initialize the gallery to set description based on current link
-  blueimp.Gallery(
-    document.getElementById('links'),
-    {
-      onslide: function (index, slide) {
-        var text = this.list[index].getAttribute('data-description'),
-        node = this.container.find('.description');
-        node.empty();
-        if (text) {
-          node[0].appendChild(document.createTextNode(text));
-        }
-      }
-    }
-  );
+  //blueimp.Gallery(
+    //document.getElementById('links'),
+    //{
+      //onslide: function (index, slide) {
+        //var text = this.list[index].getAttribute('data-description'),
+        //node = this.container.find('.description');
+        //node.empty();
+        //if (text) {
+          //node[0].appendChild(document.createTextNode(text));
+        //}
+      //}
+    //}
+  //);
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
