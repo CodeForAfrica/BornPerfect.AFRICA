@@ -7,7 +7,7 @@ author: Fardosa Hussein
 ---
 
 
-Twelve years letter I am still learning how to live with the scars of the cut.
+Twelve years later I am still learning how to live with the scars of the cut.
 
 Still fresh in my memory is that fateful day in December when it all happened. 
 

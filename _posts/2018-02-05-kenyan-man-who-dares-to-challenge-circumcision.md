@@ -30,9 +30,9 @@ Having lived in Kisumu, Mombasa and Nairobi, Chacha says, he met women who had e
 
 He knew his first assignment was to ensure that his two younger daughters escaped the knife because he was now more informed on women’s rights. 
 
-“Mimi na boma yangu tumeamua kuuasi ukeketaji (My family has decided to say no to female circumcision),” he says.
+“Mimi na boma yangu tumeamua kuuasi ukeketaji (My family has decided to say no to female circumcision,)” he says.
  
-The father of six is now a champion for girls’ rights, particularly calling on the community members to end FGM.
+The father of six is now a champion for girls’ rights, particularly calling on the community members to end FGM.cs
 
 “I have also been calling on the men to have their sons circumcised at a health facility for their own health benefits. But they believe that unless one has been cut by a traditional circumciser through the Kuria traditional practices, the cut is not any meaningful,” he says. 
 
@@ -41,8 +41,10 @@ The Kuria community valued circumcision as a crucial process to usher girls into
 Many children lose out on school hours while others drop out in the four months of preparations, he says. This is the same time that Standard Eight and Form Four students are preparing for their Kenya Certificate of Primary Education and Kenya Certificate of Secondary Education national examinations. 
 
 “The practice negatively affects the preparedness of the candidates, some of whom have to devote their time to the circumcision ceremony rehearsals hence poor performance in their examinations,” he explains.
- 
-Chacha says his age mates are the problem. 
+
+<br>
+<h2 style="font-size:1.8rem;text-align:center;">Chacha says his age mates are the problem.</h2>
+
 When he first brought the anti-FGM campaign to them in early 2016, Chacha the 75 year-old became a lone ranger. 
 
 The older men and women did not identify with him. They said he had been bewitched. 
