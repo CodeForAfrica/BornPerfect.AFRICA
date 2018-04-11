@@ -8,6 +8,7 @@ author: Fardosa Mahamad
 
 
 Traditional birth attendants (TBA) in the Somali community play a major role in perpetuating the cut. Despite the introduction of free maternity in 2013, many Somali women still seek out the services of traditional birth attendants. 
+
 Sumeya* is a well known health professional who moonlights as a cutter. She offered to take me to Mama Khadija* a traditional birth attendant who works from her home in Eastleigh, Section 3 and is also known for her skills in re-infibulating— re-stitching women who have undergone FGM.
 Interviewing Sumeya had proved difficult as her services are in great demand. The only option was either to camp at her home or tag along as she moved from house to house providing her services—safe from the watchful eyes of the law. Sumeya provides her services when she is off duty from the health facility where she works.
 

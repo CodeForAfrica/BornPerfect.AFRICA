@@ -11,11 +11,11 @@ author: Diana Kendi
 Sixty year old Longoima Lesiale has three wives and 21 children. Five out of his seven daughters have undergone the cut. 
 The remaining daughters have not been cut. This is mainly due to pressure from his youngest wife who finally succeeded in convincing him that the cut is retrogressive and causes harm to the girl.
 
-Longoima is now convinced that female genital mutilation (FGM) is a cultural practice that the Maa community should give up.  He says the practise is largely to blame for the high illiteracy among women and girls in the community and contributes to high incidence of child marriages. 
+Longoima is now convinced that female genital mutilation (FGM) is a cultural practice that the Maa community should give up. He says the practise is largely to blame for the high illiteracy among women and girls in the community and contributes to high incidence of child marriages. 
 
 “Our daughters are also marrying into other communities because they are afraid of being cut or being cast out if they are not cut. We have to adopt new thinking and reject any practise that is taking us backwards,” says Longoima.
 
-According to the Kenya Demographic Health Survey (KDHS 2014),  the more educated a woman is, the less likely she is to be circumcised or have her daughters circumcised. 
+According to the Kenya Demographic Health Survey (KDHS 2014), the more educated a woman is, the less likely she is to be circumcised or have her daughters circumcised. 
 
 The KDHS data also shows education levels of women in counties where the Maa communities dominate are dismally low. 
 
@@ -39,20 +39,19 @@ FGM - a painful and damaging ritual - was outlawed in the country in 2001 but a 
 
 Official data shows that FGM prevalence currently stands at 21 per cent nationwide but the prevalence is  78 per cent in the Maasai community. 
 
-
 The practise which is deeply rooted in Maa culture involves removing and damaging healthy, normal female genital tissue which eventually interferes with natural body functions.
 
 According to KDHS, the more educated a woman the less like she would be circumcised. With a higher percentage of Maa women being illiterate, circumcision remains high. For example, only 24.7 per cent of women between the ages of 15-49 years from the Maa community in Laikipia County compared to the national average which is 
-
 
 Only 17.9 per cent of women aged between 15-49 years in Kajiado County completed primary school while only 10.4 per cent of women completed secondary School in the same period.
 
 In Narok County, the percentage rate went lower by more than half with only 7.3 per cent of women between 15-49 years completing primary school while 10.4 per cent completing secondary.
 
 In Samburu County a similar percentage of 7.3 per cent of women as those in Narok completed primary school whereas only 5.4 per cent of them completed secondary school in the same period.
+<br>
+<h2 style="font-size:1.8rem;text-align:center;">Condemning the Curse</h2>
 
 
-Condemning the Curse
 In November last year, more than 20 elders from counties dominated by the Maa community met with representatives of the Anti-FGM Board, Mukogodo Girls Empowerment Program, Laikipia among other stakeholders to discuss strategies on how to stop the cut.
 The event was to break the curse that the community believes befalls any young woman who becomes pregnant before the cut. The elders conducted rituals to release the young and men responsible from the ‘curse’.
 

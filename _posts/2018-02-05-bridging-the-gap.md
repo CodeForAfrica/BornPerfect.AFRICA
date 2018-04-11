@@ -28,16 +28,17 @@ For his advocacy, Abdikadir has seen his circle of friends dwindle as most of hi
 
 He has found that women and girls in the community are much more forthcoming and are willing to have these conversations as they want to be informed about the subject.
 
-Acceptance within the community
+<br>
+<h2 style="font-size:1.8rem;text-align:center;">Acceptance within the community</h2>
 
 Since he started his advocacy in 2013, he says members of his community have exhibited their support by attending workshops organised by HODI  which is a positive sign towards the change of attitude towards a cultural practise that is so deep-rooted. 
 
 He said that while the men, particularly the elderly, are receptive to all topics, they are so open to discuss issues to do with FGM.
 
-“Some of them say the cut is part of the culture and no amount of convincing will make them change their minds.  Convincing women to have these kind of talks amongst themselves is a step in the right direction,” he said.
+“Some of them say the cut is part of the culture and no amount of convincing will make them change their minds. Convincing women to have these kind of talks amongst themselves is a step in the right direction,” he said.
 
 Elderly men among the Borana community are considered the decision makers and Breaking the Silence has to overcome the hurdle of getting them to at least have these conversations. 
 
 The journey has not been easy, but with hope, Abdulkadir sees a near future where religious leaders (both imams and pastors) will also take up the campaign to break the silence on FGM. 
 
-“ We are doing this to slowly. Changing the attitudes of the people cannot be done through force. We cannot force them to stop the cut all at once,” he said. 
+“We are doing this to slowly. Changing the attitudes of the people cannot be done through force. We cannot force them to stop the cut all at once,” he said. 
