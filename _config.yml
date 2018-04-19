@@ -4,9 +4,10 @@ author: Code for Africa.
 
 url: https://bornperfect.africa
 enforce_ssl: bornperfect.africa
+image: /img/background/Header-banner.jpg
 
 tw_url: http://twitter.com/share?text=Stories from across the continent about FGM.&url=https://bornperfect.africa/&hashtag=endFGM
-fb_url: http://www.facebook.com/sharer.php?u=https://bornperfect.africa
+fb_url: http://www.facebook.com/sharer.php?u=https://bornperfect.africa/
 ig_url: https://www.instagram.com/explore/tags/endFGM/
 
 google_analytics: UA-44795600-41
