@@ -360,11 +360,16 @@ NAVIGATION SECTION CSS
   display: flex;
   padding-top: 0.4rem;
 }
-.nav-item:hover{
-  color:#619183;
+.social-menu.fa-inverse {
+  color:white!important;
+  background-color:black!important;
 }
+
+//.nav-item:hover{
+  //color:#619183;
+//}
 .main-logo{
-  max-heigth:100%
+  max-height:100%
 }
 
 /*------------------------
