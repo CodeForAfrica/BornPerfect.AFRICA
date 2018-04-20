@@ -249,7 +249,6 @@ BUTTON CSS
     box-shadow:none;
 }
 
-
 h6 {
     overflow: hidden;
     text-align: center;
@@ -360,11 +359,11 @@ NAVIGATION SECTION CSS
   display: flex;
   padding-top: 0.4rem;
 }
-.nav-item:hover{
+.nav-item:hover {
   color:#619183;
 }
 .main-logo{
-  max-heigth:100%
+  max-height:100%
 }
 
 /*------------------------
@@ -786,7 +785,7 @@ section.photo-podcast h6:after {
 
 MAPPING SECTION CSS
 -------------------------*/
-.p-2 {
+.bullet-point-space {
   height:80px;
   width:80px;
 }
