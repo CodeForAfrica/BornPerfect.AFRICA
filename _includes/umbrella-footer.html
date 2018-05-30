@@ -1,0 +1,125 @@
+<!--Footer Section-->
+<footer class="footer text-gray" style="padding-top:12rem;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-6 pr-5">
+        <h2>About Born Perfect</h2>
+        <p class="pt-2">Female Genital Mutilation (FGM) is a violation of the human rights of girls and women, and yet more than 200 million alive today have been cut in 30 countries across Africa, the Middle East and Asia. The Born Perfect project documents FGM in Africa to spread awareness and abolish the practice.</smal</p> 
+        <div class="d-flex flex-row ">
+          <a class="p-2 overlay" href="https://codeforafrica.org/" target="_blank" rel="noopener"><img src="img/logos/cfafrica-transparent.png" alt="Code for africa logo "  class="img-fluid" width="100px" height="80px"/></a>
+          <a class="p-2 overlay" href="https://icfj.org" target="_blank" rel="noopener"><img src="img/logos/icfj-white.png " alt="ICFJ logo" class="img-fluid" width="100px" height="80px"></a>
+        </div>
+    
+      </div>
+      <div class="col-lg-3 col-md-6 pr-4">
+        <div class="col-padding">
+          <h3>Credits</h3>
+          <p class="small pt-3">BornPerfect. Africa was created by a transnational team of designers, journalists and developers in partnership with Code for Africa.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 ">
+        <div>
+          <h3><b>Social Links</b></h3>
+          <div class="d-flex flex-row pt-3">
+            <ul class="social-network">
+              <li>
+                <span class="fa-stack fa-lg">
+                  <a href="{{ site.tw_url }}" target="_blank" rel="noopener" title="Twitter ">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </a>
+                </span>
+              </li>
+
+              <li>
+                <span class="fa-stack fa-lg">
+                  <a href="{{ site.fb_url }}" target="_blank" rel="noopener" title="Facebook ">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </a>
+                </span>
+              </li>
+
+              <li>
+                <span class="fa-stack fa-lg">
+                  <a href="{{ site.ig_url }}" target="_blank" rel="noopener" title="Instagram ">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </a>
+                </span>
+              </li>
+
+              <li>
+                <span class="fa-stack fa-lg">
+                  <a href="mailto:{{ site.email }}" target="_blank" rel="noopener" title="Mail ">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                  </a>
+                </span>
+              </li>
+
+            </ul>       
+          </div>
+          <div class="d-flex flex-row-reverse pt-8 footnote">
+            <p class="text-grey"><small><a href="https://codeforafrica.org/" target="_blank" rel="noopener" style="width:100%">Code for Africa</a> is an initiative of <a href="https://icfj.org/" target="_blank" rel="noopener" style="width:100%">ICFJ</a></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js "></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js "></script>
+
+<!-- Custom JavaScript $ Pluggins -->
+<script src="js/scrolling.js "></script>
+<script src="js/blueimp-helper.js"></script>
+<script src="js/blueimp-gallery.js"></script>
+<script src="js/blueimp-gallery-fullscreen.js"></script>
+<script src="js/blueimp-gallery-indicator.js"></script>
+<script src="js/blueimp-gallery.min.js"></script>
+<script src="https://use.fontawesome.com/f62397c5ae.js"></script>
+<script async defer src="//www.instagram.com/embed.js"></script>
+<!--<script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>-->
+
+<!--Gallery thumbnails courasel-->
+<script>
+  document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+  };
+
+  //initialize the gallery to set description based on current link
+  //blueimp.Gallery(
+    //document.getElementById('links'),
+    //{
+      //onslide: function (index, slide) {
+        //var text = this.list[index].getAttribute('data-description'),
+        //node = this.container.find('.description');
+        //node.empty();
+        //if (text) {
+          //node[0].appendChild(document.createTextNode(text));
+        //}
+      //}
+    //}
+  //);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+
