@@ -2,6 +2,7 @@ _site/
 .sass-cache/
 .DS_Store
 .jekyll-metadata
+.vscode/
 node_modules
 
 yarn-error.log
